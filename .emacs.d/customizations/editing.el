@@ -70,3 +70,6 @@
     (quit nil)))
 
 (setq electric-indent-mode nil)
+
+;; Removing trailing whitespace on save
+(add-hook 'before-save-hook 'delete-trailing-whitespace)
