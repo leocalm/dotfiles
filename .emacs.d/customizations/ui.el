@@ -67,3 +67,11 @@
 
 ;; no bell
 (setq ring-bell-function 'ignore)
+
+;; powerline
+;; (require 'powerline)
+;; (powerline-default-theme)
+
+(require 'spaceline-config)
+(spaceline-spacemacs-theme)
+(spaceline-toggle-version-control-on)

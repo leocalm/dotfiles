@@ -88,6 +88,11 @@
 
       ;; Markdown mode
       ;; markdown-mode
+
+      ;; Powerline
+      ;; powerline
+
+      spaceline
 ))
 
 (dolist (p my-packages)
