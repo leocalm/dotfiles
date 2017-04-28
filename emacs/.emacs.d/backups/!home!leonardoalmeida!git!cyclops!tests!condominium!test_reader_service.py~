@@ -1,0 +1,3 @@
+import condominium.reader_service as reader_service
+
+def test_build_step():

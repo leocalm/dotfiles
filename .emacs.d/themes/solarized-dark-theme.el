@@ -1,1 +1,0 @@
-../elpa/solarized-theme-20161222.109/solarized-dark-theme.el

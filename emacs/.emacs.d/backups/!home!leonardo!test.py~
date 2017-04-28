@@ -1,0 +1,18 @@
+def bla(a):
+    return a
+
+
+def b(a):
+    print("a")
+
+
+def ble(b):
+    print(b)
+
+
+def xx(a):
+    print(a)
+
+
+def yy(b):
+    return(str(b))

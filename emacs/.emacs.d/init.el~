@@ -1,0 +1,105 @@
+;; Packages
+
+(require 'package) ;; You might already have this line
+(add-to-list 'package-archives
+             '("melpa" . "https://melpa.org/packages/"))
+(when (< emacs-major-version 24)
+  ;; For important compatibility libraries like cl-lib
+  (add-to-list 'package-archives '("gnu" . "http://elpa.gnu.org/packages/")))
+(package-initialize) ;; You might already have this line
+
+;; Refreshing packages
+(when (not package-archive-contents)
+  (package-refresh-contents))
+
+;; The packages you want installed. You can also install these
+;; manually with M-x package-install
+;; Add in your own as you wish:
+(defvar my-packages
+  '(;; makes handling lisp expressions much, much easier
+    ;; Cheatsheet: http://www.emacswiki.org/emacs/PareditCheatsheet
+    ;; paredit
+
+    ;; key bindings and code colorization for Clojure
+    ;; https://github.com/clojure-emacs/clojure-mode
+    ;; clojure-mode
+
+    ;; extra syntax highlighting for clojure
+    ;; clojure-mode-extra-font-locking
+
+    ;; integration with a Clojure REPL
+    ;; https://github.com/clojure-emacs/cider
+    ;; cider
+
+    ;; allow ido usage in as many contexts as possible. see
+    ;; customizations/navigation.el line 23 for a description
+    ;; of ido
+    ;; ido-ubiquitous
+
+    ;; Enhances M-x to allow easier execution of commands. Provides
+    ;; a filterable list of possible commands in the minibuffer
+    ;; http://www.emacswiki.org/emacs/Smex
+    ;; smex
+
+    ;; project navigation
+    ;; projectile
+
+    ;; colorful parenthesis matching
+    ;; rainbow-delimiters
+
+    ;; edit html tags like sexps
+    ;; tagedit
+
+    ;; git integration
+    ;; magit
+    ))
+
+(dolist (p my-packages)
+  (when (not (package-installed-p p))
+    (package-install p)))
+
+
+;; Configs
+
+;; Disable menu bar
+(menu-bar-mode -1)
+
+;; Show line numbers
+(global-linum-mode)
+
+;; Themes
+(add-to-list 'custom-theme-load-path "~/.emacs.d/themes")
+(add-to-list 'load-path "~/.emacs.d/themes")
+(load-theme 'tomorrow-night-bright t)
+
+;; These settings relate to how emacs interacts with your operating system
+(setq ;; makes killing/yanking interact with the clipboard
+      x-select-enable-clipboard t
+
+      ;; I'm actually not sure what this does but it's recommended?
+      x-select-enable-primary t
+
+      ;; Save clipboard strings into kill ring before replacing them.
+      ;; When one selects something in another program to paste it into Emacs,
+      ;; but kills something in Emacs before actually pasting it,
+      ;; this selection is gone unless this variable is non-nil
+      save-interprogram-paste-before-kill t
+
+      ;; Shows all options when running apropos. For more info,
+      ;; https://www.gnu.org/software/emacs/manual/html_node/emacs/Apropos.html
+      apropos-do-all t
+
+      ;; Mouse yank commands yank at point instead of at click.
+      mouse-yank-at-point t)
+
+;; No cursor blinking, it's distracting
+(blink-cursor-mode 0)
+
+;; full path in title bar
+(setq-default frame-title-format "%b (%f)")
+
+;; don't pop up font menu
+(global-set-key (kbd "s-t") '(lambda () (interactive)))
+
+;; no bell
+(setq ring-bell-function 'ignore)

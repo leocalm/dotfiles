@@ -1,0 +1,8 @@
+def test_json_encoder():
+    single = {'_id': ObjectId('58f7b65a4fb3691e516f1d39'),
+              'b': '12345',
+              'd': datetime.datetime(2017, 4, 19, 16, 11, 22, 655000),
+              'i': 1,
+              's': 'abc'}
+    result = json.dumps(single, cls=ObjectIdEncoder)
+    assert result == '{"_id": "58f7b65a4fb3691e516f1d39", "i": 1, "d": 1492629083, "b": "12345", "s": "abc"}'

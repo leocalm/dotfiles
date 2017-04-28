@@ -1,0 +1,41 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("/home/" . "leonardo/")
+ ("/" . "home/")
+ ("/home/leonardo/git/cyclops/public/" . "boletos/")
+ ("/home/leonardo/git/cyclops/" . "public/")
+ ("/home/leonardo/git/" . "cyclops/")
+ ("/home/leonardo/" . "git/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "/home/leonardo/"
+ "/home/leonardo/git/cyclops/public/boletos/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ "test.py"
+ "qa-boletos.html"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("/home/" (22778 39689 728124 577000) "../" "./" "leonardo/")
+
+ ("/home/leonardo/git/cyclops/public/boletos/" (22782 45632 490279 170000) "qa-boleto-edit.html" "qa-boleto-filter.html" "qa-boleto-row.html" "../" "./" ".#qa-boletos.html" "qa-boletos.html" "index.html" "qa-boletos-report.html")
+
+ ("/home/leonardo/git/cyclops/public/" (22782 45376 771871 204000) "cyclops-components/" "views/" "iptu/" "favicon5A-48x48.png" "../" "./" "bower.json" "boletos/" "polymer.json" "files/" "expenses/" "assets/" "qa-components/" "index.html")
+
+ ("/home/leonardo/git/cyclops/" (22782 45376 791871 352000) "requirements_worker.txt" "webserver.Dockerfile" "mainp.py" "google/" "reports/" ".git/" "services/" "iptu/" "requirements.txt" ".drone.yml" "parser/" "build.sh" "crawler/" "requirements_tests.txt" "requirements_webserver.txt" "routes/" "app.py" "dynamo/" "README.md" ".gitmodules" "../" ".gitignore" "./" "condominium/" "utils/" "sispag.properties" "worker.Dockerfile" "sispag/" ".dockerignore" "run_local.py" "s3/" "controllers/" "tests/" "public/" "gmail_process.py" "deploy/" "entities/" "sispag_boleto/" "worker-gmail.Dockerfile")
+
+ ("/home/leonardo/git/" (22782 45369 407816 157000) "Lyra/" "cyclops/" "../" "./" "pylyra/")
+
+ ("/home/leonardo/" (22782 45369 403816 128000) "Videos/" ".gtkrc-2.0" ".ssh/" ".ipython/" ".dmrc" "75923343800-IRPF-2017-2016-origi-imagem-recibo.pdf" ".zcompdump-leonardo-PC-5.2" ".bashrc" ".Public/" "emacs.tar.gz" "git/" ".kingsoft/" ".local/" "grep" ".gnupg/" "IRPF2017_LEO_E_LUIZ.zip" "Pictures/" ".dbus/" ".bash_logout" ".gitconfig" ".wget-hsts" ".python_history" ".oh-my-zsh/" ".cache/" "../" ".Templates/" ".receitanet/" "./" "32290869880-IRPF-2017-2016-origi-imagem-recibo.pdf" ".avfs/" ".xsession-errors" ".viminfo" ".bash_aliases" "Music/" ".gconf/" ".java/" ".emacs.d/" ".pki/" ".icons/" ".config/" ".Xauthority" "backup/" "Desktop/" ".xsession-errors.old" ".profile" "Documents/" "Downloads/" ".bash_history" ".zsh-update" ".gnome/" ".themes/" ".gksu.lock" ".zsh_history" "test.py" "75923343800-IRPF-2017-2016-origi-imagem-darfcodbarras.pdf" ".zshrc" "ProgramasRFB/")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t

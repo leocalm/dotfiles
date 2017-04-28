@@ -1,0 +1,6 @@
+from unittest.mock import patch
+import db
+
+
+@patch
+def test_auth():
