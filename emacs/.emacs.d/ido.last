@@ -2,6 +2,38 @@
 
 ;; ----- ido-last-directory-list -----
 (
+ ("/home/leonardo/git/cyclops/docs/" . "_static/")
+ ("/home/leonardo/git/main/implementation/business/src/main/java/br/com/quintoAndar/imovel/" . "discount/")
+ ("/home/leonardo/git/main/implementation/business/src/main/java/br/com/quintoAndar/" . "imovel/")
+ ("/home/leonardo/git/main/implementation/business/src/main/java/br/com/" . "quintoAndar/")
+ ("/home/leonardo/git/main/implementation/business/src/main/java/br/" . "com/")
+ ("/home/leonardo/git/main/implementation/business/src/main/java/" . "br/")
+ ("/home/leonardo/git/main/implementation/business/src/main/" . "java/")
+ ("/home/leonardo/git/main/implementation/business/src/" . "main/")
+ ("/home/leonardo/git/main/implementation/business/" . "src/")
+ ("/home/leonardo/git/main/implementation/view/src/main/java/br/com/quintoAndar/" . "web/")
+ ("/home/leonardo/git/main/implementation/view/src/main/java/br/com/" . "quintoAndar/")
+ ("/home/leonardo/git/main/implementation/view/src/main/java/br/" . "com/")
+ ("/home/leonardo/git/main/implementation/view/src/main/java/" . "br/")
+ ("/home/leonardo/git/main/implementation/view/src/main/" . "java/")
+ ("/home/leonardo/git/main/implementation/view/src/" . "main/")
+ ("/home/leonardo/git/main/implementation/view/" . "src/")
+ ("/home/leonardo/git/main/implementation/" . "business/")
+ ("/home/leonardo/git/main/" . "implementation/")
+ ("/home/leonardo/git-leo/search/search_py/static/" . "js/")
+ ("/home/leonardo/git-leo/search/search_py/" . "static/")
+ ("/home/leonardo/git-leo/search/" . "search_py/")
+ ("/home/leonardo/git-leo/" . "search/")
+ ("/home/leonardo/git/seubarriga/src/seubarriga/domain/sispag/" . "cnab400/")
+ ("/home/leonardo/git/seubarriga/src/seubarriga/domain/" . "sispag/")
+ ("/home/leonardo/git/seubarriga/src/seubarriga/" . "domain/")
+ ("/home/leonardo/git/seubarriga/src/" . "seubarriga/")
+ ("/home/leonardo/git/seubarriga/" . "src/")
+ ("/home/leonardo/git/cyclops/tests/" . "files/")
+ ("/home/leonardo/git/search/search_py/static/" . "less/")
+ ("/home/leonardo/git/search/search_py/" . "static/")
+ ("/home/leonardo/git/search/" . "search_py/")
+ ("/home/leonardo/git/dotfiles/" . "zsh/")
  ("/usr/local/lib/python3.5/dist-packages/" . "googleapiclient/")
  ("/usr/local/lib/python3.5/" . "dist-packages/")
  ("/usr/local/lib/" . "python3.5/")
@@ -15,13 +47,52 @@
  ("/home/" . "leonardo/")
  ("/" . "usr/")
  ("/home/leonardo/git/cyclops/public/" . "boletos/")
- ("/home/leonardo/git/cyclops/" . "public/")
- ("/home/leonardo/git/" . "cyclops/")
- ("/home/leonardo/" . "git/")
+ ("/home/leonardo/git/cyclops/" . "docs/")
+ ("/home/leonardo/git/" . "seubarriga/")
+ ("/home/leonardo/" . ".emacs.d/")
 )
 
 ;; ----- ido-work-directory-list -----
 (
+ "/home/leonardo/"
+ "/home/leonardo/.emacs.d/"
+ "/home/leonardo/git/seubarriga/"
+ "/home/leonardo/git/cyclops/docs/"
+ "/home/leonardo/git/cyclops/tests/files/"
+ "/home/leonardo/git/cyclops/iptu/"
+ "/home/leonardo/git/cyclops/"
+ "/home/leonardo/git/cyclops/google/"
+ "/home/leonardo/git/cyclops/public/boletos/"
+ "/home/leonardo/git/main/implementation/business/src/main/java/br/com/quintoAndar/imovel/discount/"
+ "/home/leonardo/git/main/implementation/view/src/main/java/br/com/quintoAndar/web/"
+ "/home/leonardo/git/cyclops/condominium/"
+ "/home/leonardo/git/cyclops/guesser/"
+ "/home/leonardo/git/docker-python3-mongo/"
+ "/home/leonardo/git/cyclops/tests/routes/"
+ "/home/leonardo/git/cyclops/sispag_boleto/"
+ "/home/leonardo/git-leo/search/search_py/static/js/"
+ "/home/leonardo/git/search/search_py/static/less/"
+ "/home/leonardo/git/search/search_py/static/js/"
+ "/home/leonardo/git/cyclops/scripts/"
+ "/home/leonardo/git/cyclops/tests/sispag/"
+ "/home/leonardo/git/seubarriga/src/seubarriga/domain/sispag/cnab400/"
+ "/home/leonardo/git/seubarriga/src/seubarriga/domain/sispag/cnab240/"
+ "/home/leonardo/git/cyclops/public/cyclops-components/"
+ "/home/leonardo/git/cyclops/routes/"
+ "/home/leonardo/git/docker-python-image-utils/"
+ "/home/leonardo/git/cyclops/tests/entities/"
+ "/home/leonardo/Downloads/"
+ "/home/leonardo/git/seubarriga/utils/"
+ "/home/leonardo/git/cyclops/aws/"
+ "/home/leonardo/git/cyclops/public/iptu/"
+ "/home/leonardo/dev/"
+ "/home/leonardo/git/cyclops/deploy/"
+ "/home/leonardo/git/search/search_py/api/controllers/"
+ "/home/leonardo/git/search/search_py/templates/"
+ "/home/leonardo/git/search/"
+ "/home/leonardo/git/cyclops/tests/"
+ "/home/leonardo/git/cyclops/utils/"
+ "/home/leonardo/git/dotfiles/zsh/"
  "/home/leonardoalmeida/git/cyclops/tests/condominium/"
  "/home/leonardoalmeida/git/cyclops/tests/google/"
  "/usr/local/lib/python3.5/dist-packages/googleapiclient/"
@@ -33,35 +104,178 @@
  "/home/leonardoalmeida/git/cyclops/tests/aws/"
  "/home/leonardoalmeida/git/cyclops/tests/files/"
  "/home/leonardoalmeida/git/cyclops/tests/reports/"
- "/home/leonardoalmeida/git/cyclops/tests/utils/"
- "/home/leonardoalmeida/git/cyclops/utils/"
- "/home/leonardoalmeida/git/cyclops/tests/entities/"
- "/home/leonardoalmeida/git/cyclops/crawler/"
- "/home/leonardoalmeida/git/cyclops/sispag_boleto/"
- "/home/leonardoalmeida/git/cyclops/public/assets/js/"
- "/home/leonardoalmeida/git/cyclops/google/"
- "/home/leonardoalmeida/git/cyclops/public/boletos/"
- "/home/leonardoalmeida/.emacs.d/"
- "/home/leonardo/"
- "/home/leonardo/git/cyclops/public/boletos/"
 )
 
 ;; ----- ido-work-file-list -----
 (
- "test_boleto_process.py"
- "test_gmail_auth.py"
- "http.py"
- "test_drive.py"
- "test_db.py"
- "__init__.py"
- "file.py"
- "entry_description.py"
- "boleto_process.py"
- "test_contract_routes.py"
+ "a.clj"
+ "init.el"
+ "project.clj"
+ "guessing.rst"
+ "Makefile"
+ "index.rst"
+ "conf.py"
+ "iptu_boleto.html"
+ "2016.07.01 79806 Condominio PAGO.pdf"
+ ".drone.yml"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
+ ("/home/leonardo/git/seubarriga/" (22829 63405 227008 409000) "local-repo/" "CHANGELOG.md" "./" "src/" ".gitignore" "test/" "resources/" ".dockerignore" "contributors.txt" "README.md" "Dockerfile" "tmp/" "runner.Dockerfile" "project.clj" "target/" "utils/" ".lein-env" "doc/" ".git/" "LICENSE" "deploy/" ".drone.yml" "../" "worker.Dockerfile")
+
+ ("/home/leonardo/.emacs.d/" (22829 63349 638761 740000) "session.102e2ce726c8b3ba5d149451822035158800000026040034" "session.10ca8a80e47b422739149521893068539500000025380040" "./" "ac-comphist.dat" ".smex-items" ".recentf" "snippets/" "backups/" "projectile-bookmarks.eld" "init.el~" "ido.last" "session.10f3336d34a2fc2119149581010399499600000028680066" "elpa/" "auto-save-list/" "session.102e2ce726c8b3ba5d149459858164095900000026040037" "init.el" "themes/" "../" "session.102e2ce726c8b3ba5d14945341323832800000026040035")
+
+ ("/home/leonardo/Downloads/" (22829 63425 491099 849000) "CONDOMINIO RESERVA DO BOSQUE-alexandre levi,202 - 63F.pdf" "FGTS/" "15051701.PAG" "2017.05.10 997 condominio.pdf" "2017.05.10 992 Condominios.html" "dump_local_2017_01_18.sql" "./" "24051701.PAG" "2017.05.10 916 Condominio.pdf" "2017.05.10 946 Condominio-1_1.png" "idea-IC-171.4424.56/" "franz/" "ebdb_dump.tar.gz" "boleto.pdf.png" "2017.05.10 925 Condominio.pdf" "2509.08906000448.2017.4.170529195829.pdf" "elasticsearch-5.4.0.deb" "atom-amd64.deb" "emacs-for-clojure-book1.zip" "24051701.csv" "2017/" "PÇA. POMPÉIA 101A.pdf" "2017.05.10 946 Condominio-2_1.png" "boletos (3).csv" "apache-maven-3.5.0-bin.tar.gz" "AA104196_1.2.840.113564.9.1.2788814711.52.2.10003209690_ada831ff-5f4a-4c50-8a11-cd62ffea04dd.1/" "Franz-linux-x64-4.0.4.tgz" "docker-17.04.0-ce.tgz" "ebdb_dump.sql" "datomic-pro-0.9.5394.tar.gz" "stdout" "18051702.PAG" "warsaw_setup_64.deb" "boostnote_0.8.9_amd64.deb" "2017.05.10 946 Condominio-1_2.png" "2017.05.10 874 condominio.pdf" "2017-20170530T222510Z-001.zip" "29051701.PAG" "2017.05.10 903Condominio.pdf" "processados/" "25051704.csv" "09051703.csv" "18051701.PAG" "emacs-for-clojure-book1/" "18051703.PAG" "2017.05.10 946 Condominio.pdf" "manjaro-xfce-17.0.1-stable-x86_64.iso" "05051701.PAG" "ideaIC-2017.1.3.tar.gz" "processados-20170508T153501Z-001.zip" "2017.05.10 873 Condominio.pdf" "boletos (2).csv" "repo-up-to-1.6.1.zip" "2017.05.10 946 Condominio_ind.html" "Identificados/" "datomic-free-0.9.5561.zip" "2017.05.10 946 Condominio(1).pdf" "2017.05.10 903Condominio(1).pdf" "2017.05.10 992 Condominio_ind.html" "25051704.PAG" "mysql-apt-config_0.8.5-1_all.deb" "bla/" "download.png" "datomic-free-0.9.5561/" "LanguageTool-3.7.zip" "18051704.PAG" "2017.05.10 992 Condominio-1_1.jpg" "10051703 (1).csv" "2017.05.10 946 Condominios.html" "25051706.csv" "2017.05.10 889 Condominio.pdf" "2017.05.10 992 Condominio-2_1.jpg" "15051701 (1).PAG" "2017.06.03 0 Auto.pdf" "25051705.csv" "IPTU Campinas/" "Identificados-20170524T214203Z-001.zip" "docker/" "2017.05.10 951 Condominio.pdf" "2017.05.10 992 Condominio.html" "2017.05.10 955 Condominio.pdf" "dev_dump_2016_05_04.sql" "2017.05.10 946 Condominio.html" "2017.05.10 973 Condominio.pdf" "wink.svg" "100517031.csv" "10051703.csv" "AA104196_1.2.840.113564.9.1.2788814711.52.2.10003209690_ada831ff-5f4a-4c50-8a11-cd62ffea04dd.1.zip" "2017.05.10 946 Condominio-2_2.png" "logs/" "10051701.PAG" "boletos (1).csv" "barra.png" "2017.05.10 992 Condominio(1).pdf" "2017.05.10 876 Condominio.pdf" "code_1.12.2-1494422229_amd64.deb" "LanguageTool-3.7/" "boletos.csv" "expenses.csv" "2017.05.10 951 Condominio(1).pdf" "../" "temp/" "docker.tar.gz" "IPTU Campinas-20170515T181748Z-001.zip" "boletos.zip")
+
+ ("/home/leonardo/Downloads/emacs-for-clojure-book1/" (22574 65191 0 0) "./" ".gitignore" "README.md" "elpa/" "init.el" "customizations/" "themes/" "../")
+
+ ("/home/leonardo/" (22829 62916 209137 376000) ".java/" ".dcos/" "./" ".mozilla/" "Downloads/" ".zsh-update" "iptu_finalizados.csv" ".dmrc" ".dbshell" ".zcompdump-SPF1LT-000632-5.2.SPF1LT-000632.7145" ".xsession-errors" ".gitconfig" ".byobu/" ".oh-my-zsh/" ".profile" ".pip/" "Desktop/" "es.txt" ".zsh_history" ".lein/" "git/" ".bash_logout" "Pictures/" ".adobe/" ".config/" "boleto.pdf-0.png" "Public/" "personal.org" ".pylint.d/" ".cache/" ".gnome/" "Backup/" ".rnd" "dev/" ".viminfo" ".mysql_history" ".bash_history" "Videos/" ".pki/" ".m2/" "interviewing.org" ".mongorc.js" ".atom/" "bla.org" ".macromedia/" "examples.desktop" "Music/" ".ipython/" ".gnupg/" ".compiz/" "env_dev.sh" ".emacs.d/" ".npm/" "tarefas.html" "log_sceduler.log" "elastic/" "boleto.pdf-1.png" "2017.06.01 0 Auto.pdf" ".fonts/" ".local/" "mongo_scripts.js" ".zshrc" ".zshrc.pre-oh-my-zsh" "env_prod.sh" ".thunderbird/" ".ICEauthority" ".bashrc" "worker.log" ".gconf/" ".nano/" ".IdeaIC2017.1/" ".vscode/" ".python_history" ".ssh/" "interview/" ".zcompdump" ".zcompdump-SPF1LT-000632-5.2" "wkhtmltopdf" ".babel.json" "μ/" ".Xauthority" "../" ".sudo_as_admin_successful" ".vim/" "Documents/" ".xsession-errors.old" ".v8flags.5.1.281.98.020e60c6a84db8c5d4c2d56a4e4fe082.json" "Templates/" "boleto.png" ".vscode-react-native/" "tasks.org")
+
+ ("/home/leonardo/git/cyclops/" (22829 61190 610840 434000) "app.py" "__init__.py" "package.json" "./" ".gitignore" "s3/" "boletos_iptu/" "iptu/" "entities/" ".dockerignore" ".coverage" "main_scheduler.py" ".gitmodules" "build_requirements.sh" "txt/" "README.md" "sqs_worker.py" "node_modules/" "google/" "db.py" "Dockerfile" "scripts/" "aws/" "services/" "CONTRACT_GUESS.md" "reports/" ".flake8" "sispag_boleto/" "sispag/" "docs/" "crawler/" "htmlcov/" "utils/" "BOLETO-FLOW.md" "routes/" "jobs.py" "run_local.py" "parser/" "tests/" ".git/" "run_async.py" "test.Dockerfile" "requirements.txt" "guesser/" "deploy/" "public/" "controllers/" ".drone.yml" "../" "main_flask.py" "build.sh" "condominium/" "sispag_files/" "venv/")
+
+ ("/home/leonardo/git/cyclops/docs/" (22829 61252 479248 187000) "_templates/" "_build/" "./" "index.rst" "conf.py" "guessing.rst" "Makefile" "_static/" "../")
+
+ ("/home/leonardo/git/cyclops/docs/_templates/" (22829 39149 981763 76000) "./" "../")
+
+ ("/home/leonardo/git/cyclops/docs/_static/" (22829 39149 981763 76000) "./" "../")
+
+ ("/home/leonardo/git/cyclops/iptu/" (22829 38284 432779 361000) "captcha.py" "./" "boleto.py" "update.py" "debits.py" "iptu_utils.py" "property_exception.py" "homes_service.py" "main.py" "info.py" "../" "boleto_iptu_status.py")
+
+ ("/home/leonardo/git/cyclops/tests/files/" (22828 28147 561049 965000) "iptu_debits_2.html" "file_content.csv" "iptu_boleto.html" "./" "iptu_debits_1.html" "2016.07.01 79806 Condominio PAGO.pdf.txt" "2016.07.01 79806 Condominio PAGO.pdf" "2016.07.10 84297 Condominio PAGO.pdf" "iptu_info_captcha.html" "holidays.txt" "2016.07.05 81843 Condominio PAGO.pdf" "2016.07.05 75343 Condominio PAGO.pdf.txt" "2016.07.08 70619 Condominio PAGO.pdf" "2016.07.10 73221 Condominio PAGO.pdf" "iptu_info_no_data.html" "2016.07.05 77502 Condominio PAGO.pdf" "2016.07.10 70973 Condominio PAGO.pdf" "2016.07.05 75343 Condominio PAGO.pdf" "test.pdf" "2016.07.05 77739 Condominio PAGO.pdf" "../" "iptu_info_error.html" "iptu_info_1.html" "iptu_info_2.html" "2016.07.20 76277 Condominio PAGO.pdf")
+
+ ("/home/leonardo/git/cyclops/tests/" (22828 28147 561049 965000) "test_bar_code_reader.py" "test_downloader.py" "__init__.py" "./" "test_bar_code_scanner.py" "test_gmail.py" "test_db.py" "iptu/" "entities/" "google/" "test_date_utils.py" "__pycache__/" "services/" "reports/" "sispag/" "test_ocr_utils.py" "utils/" "routes/" "files/" "test_guesser.py" "test_bar_code_utils.py" "test_status_check.py" "conftest.py" "controllers/" "../" "test_banks.py" "test_itau_crawler.py" "condominium/")
+
+ ("/home/leonardo/git/cyclops/s3/" (22811 8499 452466 499000) "__init__.py" "./" "../")
+
+ ("/home/leonardo/git/cyclops/google/" (22828 22170 47888 701000) "__init__.py" "./" "gmail_authentication.py" "server_credentials.py" "cyclops_flow.py" "gmail.py" "../" "drive.py")
+
+ ("/home/leonardo/git/cyclops/public/boletos/" (22828 16371 222575 725000) "./" "qa-boleto-file.html" "qa-boleto-row.html" "qa-boletos.html" "qa-boleto-filter.html" "../" "index.html" "qa-boleto-edit.html" "qa-boletos-report.html")
+
+ ("/home/leonardo/git/cyclops/public/" (22823 22141 58158 856000) "./" "expenses/" "iptu/" "favicon5A-48x48.png" "monthly-closing/" "polymer.json" "assets/" "bower.json" "files/" "views/" "cyclops-components/" "bower_components/" "qa-components/" "boletos/" "../" "index.html")
+
+ ("/home/leonardo/git/" (22824 43060 714351 726000) "seubarriga/" "./" "docker-python-image-utils/" "pylyra/" "docker-python3-mongo/" "main_old/" ".coverage" "skynet/" "dotfiles/" "cyclops/" "reports/" "search/" "htmlcov/" "pytorctl/" "pwa-tenants/" "confirmacaoDesconto.css" "docker-base-services/" "test.Dockerfile" "fonts/" "main/" "../" "sispag_files/")
+
+ ("/home/leonardo/git/main/implementation/business/src/main/java/br/com/quintoAndar/imovel/discount/" (22824 16817 72512 156000) "./" "DiscountInfoController.java" "DiscountInfoRepository.java" "DiscountInfoControllerBean.java" "DiscountInfo.java" "../" "DiscountInfoRepositoryBean.java")
+
+ ("/home/leonardo/git/main/implementation/business/src/main/java/br/com/quintoAndar/imovel/" (22824 16817 72512 156000) "MudancaStatusImovelRepository.java" "ImovelRepositoryBean.java" "HorarioSemanalImovelController.java" "TipoPorteiro.java" "HorarioSemanalImovelControllerBean.java" "discount/" "./" "changed/" "ImovelMessagesService.java" "InformacaoVisita.java" "ImovelDisponibilidadeServiceBean.java" "CadastrarImovelControllerBean.java" "TipoColisaoLead.java" "HorarioSemanalImovelGroupVO.java" "ConsultarImoveisController.java" "ContatoImovelRepositoryBean.java" "HorarioSemanalImovelVO.java" "infoPagamentoCondo/" "ErrosImovelVO.java" "info/" "SimpleImovelVO.java" "CondicoesEntradaRepository.java" "StatsAlugados.java" "ImovelCloudSearch.java" "ImovelIdExternoRepository.java" "EstadoConservacaoImovel.java" "Condominio.java" "HashRenovacaoAnuncio.java" "ImovelIdExterno.java" "ContatoCondominioVO.java" "TipoVaga.java" "EtapaSalvar.java" "ImovelRepository.java" "ImovelControllerBean.java" "ParcelaIptuRepositoryBean.java" "analysis/" "ImovelVO.java" "TipoAnuncio.java" "ParcelaIptu.java" "ImovelEntityChangeListener.java" "DiscountInfoVO.java" "CondominioVO.java" "ResultadoBuscaImovel.java" "condoManager/" "HorarioSemanalImovel.java" "CondominioSpreadsheetServiceBean.java" "ImovelIdExternoRepositoryBean.java" "CondominioController.java" "TipoPreco.java" "listener/" "HorarioSemanalImovelRepositoryBean.java" "HorariosImovelVO.java" "StatusConversaoImovel.java" "TipoPagamentoCondominio.java" "search/" "ImovelController.java" "MovingControllerBean.java" "SendDefaultContractBean.java" "MapPin.java" "ParcelaIptuRepository.java" "carrinho/" "ConsultarImoveisControllerBean.java" "HorariosImovel.java" "CondicoesEntradaRepositoryBean.java" "HorarioSemanalImovelRepository.java" "notifications/" "SendDefaultContract.java" "ParcelaIptuVO.java" "StatusImovel.java" "ContatoImovelVO.java" "CondominioRepositoryBean.java" "CondominioRepository.java" "DataConstrucao.java" "NivelAcabamentoImovel.java" "CloudSearchServiceBean.java" "stats/" "ContatoImovel.java" "SuspensionReason.java" "CadastrarImovelController.java" "homeownersInsurance/" "StatsPublicados.java" "ContatoCondominioRepository.java" "ImagemVO.java" "CondominioControllerBean.java" "CloudSearchService.java" "Imovel.java" "bucket/" "TipoImovel.java" "v2/" "ResultadoImoveisPorCidade.java" "StatusConversaoImovelMap.java" "ImovelBaseVO.java" "../" "ImovelDisponibilidadeService.java" "TipoGarantia.java" "MudancaStatusImovel.java" "CondominioSpreadsheetService.java" "ContatoCondominio.java" "ContatoImovelRepository.java" "MovingInformationVO.java" "MovingController.java" "favorito/" "MudancaStatusImovelRepositoryBean.java")
+
+ ("/home/leonardo/git/main/implementation/business/src/main/java/br/com/quintoAndar/" (22815 11693 347372 44000) "notification/" "atuacao/" "googleGeocode/" "agendamento/" "gdrive/" "./" "rating/" "logsdb/" "contaCorrente/" "notafiscal/" "integracao/" "common/" "vistoria/" "lead/" "registroAcesso/" "conversao/" "audit/" "spring/" "formacao/" "vendedor/" "relatorios/" "negociacao/" "slackapi/" "mail/" "geocode/" "usuario/" "financeiro/" "documento/" "legalRepresentative/" "agente/" "fluxolocacao/" "logging/" "cartaoPrePago/" "digits/" "banco/" "mobileapp/" "mensagemsms/" "facebook/" "pdf/" "local/" "igpm/" "estadoFluxo/" "pedidoConfirmacao/" "contrato/" "cadastroatuacaofuturo/" "daemons/" "municipio/" "fotografo/" "proposta/" "regiao/" "movileapi/" "cobranca/" "bitly/" "classificados/" "email/" "arqsqe/" "estatistica/" "ContatoCondominioRepositoryBean.java" "cep/" "esignature/" "imagem/" "aquisicao/" "imovel/" "jackson/" "stats/" "nfepaulistana/" "sync/" "visita/" "enumDumper/" "afiliado/" "gcmapi/" "estado/" "preproposta/" "respauto/" "jwt/" "config/" "../" "onboarding/" "buscaguiada/" "tx/" "integracaoLead/" "pendencia/" "hibernate/" "parametro/" "messaging/" "gmailapi/")
+
+ ("/home/leonardo/git/main/implementation/business/src/main/java/br/com/" (22815 11693 275371 979000) "./" "quintoAndar/" "../")
+
+ ("/home/leonardo/git/main/implementation/business/src/main/java/br/" (22815 11693 275371 979000) "./" "com/" "../")
+
+ ("/home/leonardo/git/main/implementation/business/src/main/java/" (22815 11693 351372 48000) "./" "br/" "org/" "../")
+
+ ("/home/leonardo/git/main/implementation/business/src/main/" (22815 11693 355372 52000) "./" "resources/" "java/" "resourcesnofilter/" "../")
+
+ ("/home/leonardo/git/main/implementation/business/src/" (22815 11693 359372 55000) "./" "test/" "main/" "../")
+
+ ("/home/leonardo/git/main/implementation/business/" (22824 16921 69316 791000) "./" "src/" "target/" "pom.xml" "build/" "../")
+
+ ("/home/leonardo/git/main/implementation/view/" (22824 21517 823225 889000) "./" "src/" "target/" "pom.xml" "../")
+
+ ("/home/leonardo/git/main/implementation/view/src/main/java/br/com/quintoAndar/web/" (22824 21795 293055 250000) "GmailCrawlerRS.java" "MenuAdminRS.java" "BancoRS.java" "ApplicationRS.java" "./" "ParametroRS.java" "integracao/" "LocacaoRS.java" "NegociacaoRS.java" "CondominioRS.java" "AuthRS.java" "RegistroAcessoRS.java" "AfiliadoRS.java" "MobileAppRS.java" "AgendamentoRS.java" "AtuacaoRS.java" "LeadRS.java" "CondoManagerRS.java" "CarrinhoRS.java" "RelatorioConsultaRS.java" "ContratoRS.java" "ConsultaImoveisRS.java" "PrePropostaRS.java" "vos/" "CobrancaRS.java" "VisitaRS.java" "ContaConsumoRS.java" "ImovelFeedRS.java" "DocumentosRS.java" "ConversaoLeadRS.java" "GmailAuthRS.java" "mobile/" "VistoriaRS.java" "BuscaGuiadaRS.java" "HorariosAgenteRS.java" "FluxoLocacaoRS.java" "LocalRS.java" "tos/" "EstadoRS.java" "old/" "ListingDiscountRS.java" "PendenciaRS.java" "InfoPagamentoCondominioRS.java" "JobFotografoRS.java" "AssinaturaRS.java" "DocumentacaoRS.java" "../" "OnboardingRS.java" "ImovelRS.java" "FotografoRS.java" "OLXAuthRS.java" "UsuarioRS.java" "IntegracaoLeadRS.java" "PropostaRS.java")
+
+ ("/home/leonardo/git/main/implementation/view/src/main/java/br/com/quintoAndar/" (22815 11693 687372 354000) "./" "estatisticas/" "mail/" "fmv/" "web/" "carrinho/" "stats/" "config/" "../")
+
+ ("/home/leonardo/git/main/implementation/view/src/main/java/br/com/" (22815 11693 683372 350000) "./" "quintoAndar/" "../")
+
+ ("/home/leonardo/git/main/implementation/view/src/main/java/br/" (22815 11693 683372 350000) "./" "com/" "../")
+
+ ("/home/leonardo/git/main/implementation/view/src/main/java/" (22815 11693 695372 361000) "./" "br/" "com/" "../")
+
+ ("/home/leonardo/git/main/implementation/view/src/main/" (22815 11693 695372 361000) "./" "resources/" "java/" "webapp/" "../")
+
+ ("/home/leonardo/git/main/implementation/view/src/" (22815 11693 939372 583000) "./" "test/" "main/" "../")
+
+ ("/home/leonardo/git/main/implementation/" (22824 16786 840335 128000) "db-scripts/" "./" "src/" ".gitignore" "feeder/" "img/" "view/" "schedule-planner/" "runDaemonsMiudim.sh" "cronRunDaemonsMiudim.sh" "annotations/" "lead-duplication-component/" "mobile-api/" "web-common/" "daemons/" "pom.xml" "build/" "business/" "tests-suite/" "integration-tests/" "../" "schedule-planner-client/" "imovelFeedCaches.py")
+
+ ("/home/leonardo/git/main/" (22824 16786 828335 54000) "./" ".gitignore" "implementation/" "freemarkerDoc/" "README.md" ".git/" "../")
+
+ ("/home/leonardo/git/cyclops/condominium/" (22822 63178 451288 888000) "responsability_check.py" "__init__.py" "./" "boleto_status.py" "bar_code_reader.py" "pdf_reader_3.py" "boleto_process.py" "ocr_utils.py" "downloader.py" "bar_code_utils.py" "reader_service.py" "../" "bar_code_scanner.py")
+
+ ("/home/leonardo/git/cyclops/guesser/" (22822 63135 978788 632000) "__init__.py" "./" "util.py" "banks.py" "main.py" "../" "finder.py")
+
+ ("/home/leonardo/git/cyclops/sispag_boleto/" (22823 11884 396541 583000) "sispag_tributo_generator.py" "./" "header_lote.py" "header.py" "sispag_generator.py" "boleto_occurrences.py" "trailer_lote_tributo.py" "detalhe_tributos.py" "sispag_type.py" "trailer_lote_boleto.py" "line_generator.py" "sispag_service.py" "detalhe_boleto.py" "../" "sispag_boleto_generator.py" "trailer.py")
+
+ ("/home/leonardo/git/cyclops/tests/routes/" (22822 59336 856558 540000) "./" "test_iptu_routes.py" "test_google_routes.py" "data.py" "test_sispag_routes.py" "test_flask.py" "test_file_route.py" "test_contract_routes.py" "test_invoice_routes.py" "test_boleto_routes.py" "test_entries_routes.py" "../" "fixtures.py" "test_seubarriga_routes.py")
+
+ ("/home/leonardo/git-leo/search/search_py/static/js/" (22815 15542 376144 946000) "react-slick/" "confirmacao.es6" "apt_suggestions.es6" "react-onclickoutside/" "loader.es6" "index.es6" "react-components/" "jquery/" "./" "map_style.js" "userverification.es6" "bootstrap/" "tagvisita.es6" "user.es6" "management.es6" "email.js" "noUiSlider/" "autocompletebusca.js" "underscore/" "cancelar.es6" "detalhesimovel.js" "abtesting.es6" "classnames/" "warningmodal.es6" "carrinho.es6" "carrossel.js" "moving_map.es6" "reactjs/" "markerclusterer/" "vivus/" "mobile_detalhesimovel.js" "material/" "sweetalert/" "text_me_app.es6" "react-input-autosize/" "util.es6" "supportcode.js" "mobile_main.js" "services/" "mobile_busca.es6" "favoritos.js" "materialize/" "amplitude/" "meiomask/" "redirect.js" "mobile_filtros.es6" "mobile_propertylisting.es6" "detalhesvisita.es6" "onboarding.es6" "galleria/" "landing.es6" "gtm.js" "custommultiselect.js" "email/" "wNumb/" "scheduled_visits.es6" "remarcar.es6" "mobile-detect/" "login.js" "quintoandar.map.label.js" "busca.es6" "addthiseventbox.es6" "main.js" "jornada-inquilino.es6" "smartbanner.es6" "customaccordion.js" "react-select/" "confirmacaoDesconto.es6" "react-map.es6" "favoritosPage.es6" "../" "mobile_index.es6" "menubox.es6" "slick/" "date.format.js")
+
+ ("/home/leonardo/git-leo/search/search_py/templates/" (22815 8466 82582 440000) "./" "util/" "visitas.html" "listingnotfound.html" "opensearch.xml" "robots_producao.txt" "layouts/" "favoritos.html" "google88081f0ee9df093a.html" "carrinho_agendamento.html" "404.html" "googlefbe4f68c213f0539.html" "buscas-populares.html" "erro.html" "desconto.html" "mobile/" "email/" "blocks/" "svgs/" "partials/" "visita-cancelada.html" "sugestaopreco.html" "facebooklogin.html" ".well-known/" "robots_forno.txt" "busca.html" "jornada-inquilino.html" "sitemap.xml" "detalharimovel.html" "../" "index.html")
+
+ ("/home/leonardo/git-leo/search/search_py/static/" (22796 42850 454379 89000) "./" "js/" "img/" "css/" "pdf/" "minified/" "fonts/" "less/" "../" "COMPILED/")
+
+ ("/home/leonardo/git-leo/search/search_py/" (22796 42773 839768 99000) "__init__.py" "./" "static/" "templates/" "templatetags/" ".eslintrc.js" "api/" "tests/" "config/" "../" "__init__.pyc")
+
+ ("/home/leonardo/git-leo/search/" (22815 5482 721020 752000) "package.json" "./" "manage.py" ".gitignore" ".ebextensions/" "readme.md" "static_files.py" ".babelrc" "search_py/" "node_modules/" "scripts/" "s3cmd.conf" ".git/" "requirements.txt" "../" "gulpfile.js" "requirements_local.txt")
+
+ ("/home/leonardo/git-leo/" (22815 11671 779354 657000) "seubarriga/" "./" "docker-python-image-utils/" "pylyra/" "docker-python3-mongo/" "main_old/" "skynet/" "dotfiles/" "cyclops/" "search/" "pwa-tenants/" "docker-base-services/" "test.Dockerfile" "fonts/" "main/" "../")
+
+ ("/home/leonardo/git/search/search_py/static/js/" (22815 4439 777913 34000) "react-slick/" "confirmacao.es6" "apt_suggestions.es6" "react-onclickoutside/" "loader.es6" "index.es6" "react-components/" "jquery/" "./" "map_style.js" "userverification.es6" "bootstrap/" "tagvisita.es6" "user.es6" "management.es6" "email.js" "noUiSlider/" "autocompletebusca.js" ".#confirmacaoDesconto.es6" "underscore/" "cancelar.es6" "detalhesimovel.js" "abtesting.es6" "classnames/" "warningmodal.es6" "carrinho.es6" "carrossel.js" "moving_map.es6" "reactjs/" "markerclusterer/" "vivus/" "mobile_detalhesimovel.js" "material/" "sweetalert/" "text_me_app.es6" "react-input-autosize/" "util.es6" "supportcode.js" "mobile_main.js" "services/" "mobile_busca.es6" "favoritos.js" "materialize/" "amplitude/" "meiomask/" "redirect.js" "mobile_filtros.es6" "mobile_propertylisting.es6" "detalhesvisita.es6" "onboarding.es6" "galleria/" "landing.es6" "gtm.js" "custommultiselect.js" "email/" "wNumb/" "scheduled_visits.es6" "remarcar.es6" "mobile-detect/" "login.js" "quintoandar.map.label.js" "busca.es6" "addthiseventbox.es6" "main.js" "jornada-inquilino.es6" "smartbanner.es6" "customaccordion.js" "react-select/" "confirmacaoDesconto.es6" "react-map.es6" "favoritosPage.es6" "../" "mobile_index.es6" "menubox.es6" "slick/" "date.format.js")
+
+ ("/home/leonardo/git/search/search_py/static/less/" (22815 3517 114511 627000) "smartbanner.less" "listingnotfound.less" "./" "propertylisting.less" "search_bar.less" "mobile_addthisevent.less" "userverification.less" "search_bar_common.less" "favourites.less" "sugestaopreco.less" "customaccordion.less" "mobile_visitas.less" "confirmation.less" "remarcar.less" "main.less" "mobile_static_pages.less" "mobile_home_search_bar.less" "mobile_favoritos.less" "cart.less" "tagvisita.less" "busca.less" "static_pages.less" "mobile_busca.less" "mobile_carrinho.less" "detalhesvisita.less" "mobile_resumo_visita.less" "less-main.less" "carrinho.less" "about-qa.less" "confirmacaoDesconto.less" "onboarding.less" "email/" "index.less" "footer.less" "recommendations.less" "landing.less" "home_search_bar.less" "variables.less" "header.less" "mobile_index.less" "mobile_propertylisting.less" "animate.less" "cancelar.less" "mobile_filtros.less" "mobile_main.less" "addthisevent.less" "management.less" "jornada.less" "../")
+
+ ("/home/leonardo/git/cyclops/scripts/" (22814 6855 238287 350000) "./" "build_clusters.py" "new_status.js" "update_file_id.py" "../" "insert_expenses.js")
+
+ ("/home/leonardo/git/cyclops/public/cyclops-components/" (22814 6855 234287 325000) "bar-code-validator.js" "./" "entries-card.html" "invoice-card.html" "iptu-filter.html" "cyclops-localize-behavior.html" "qa-entry-type-select.html" "iptu-row.html" "qa-stakeholders-select.html" "cyclops-layout.html" "entries-crud.html" "entry-row.html" "qa-bar-code-input.html" "contract-card.html" "qa-filter/" "../" "invoice-preview.html" "year-month-selector.html")
+
+ ("/home/leonardo/git/cyclops/entities/" (22812 51995 30136 434000) "__init__.py" "./" "boleto.py" "file.py" "entry_description.py" "audit.py" "../")
+
+ ("/home/leonardo/git/seubarriga/src/seubarriga/domain/sispag/cnab400/" (22803 26635 993187 883000) "./" "return.clj" "sending.clj" "../")
+
+ ("/home/leonardo/git/seubarriga/src/seubarriga/domain/sispag/cnab240/" (22803 26635 993187 883000) "./" "return.clj" "sending.clj" "../")
+
+ ("/home/leonardo/git/seubarriga/src/seubarriga/domain/sispag/" (22803 26635 993187 883000) "./" "return.clj" "boleto.clj" "core.clj" "sending.clj" "cnab240/" "../" "cnab400/")
+
+ ("/home/leonardo/git/seubarriga/src/seubarriga/domain/" (22803 26635 993187 883000) "manual_entries.clj" "./" "invoice/" "transfer.clj" "administration_fee.clj" "early_termination_fee.clj" "contract.clj" "igpm/" "brokerage_fee.clj" "sispag/" "rental.clj" "balance.clj" "nf/" "home_insurance.clj" "../" "iptu.clj" "proportional_period.clj" "monthly_entries.clj" "payment.clj" "insurance_guarantee.clj")
+
+ ("/home/leonardo/git/seubarriga/src/seubarriga/" (22803 26635 993187 883000) "job_runner.clj" "./" "schema_util.clj" "domain/" "worker_queue.clj" "services/" "reports/" "jobs/" "worker.clj" "app_core.clj" "migration.clj" "handlers/" "handler.clj" "adapters/" "schema.clj" "../")
+
+ ("/home/leonardo/git/seubarriga/src/" (22803 26635 989187 856000) "seubarriga/" "./" "../")
+
+ ("/home/leonardo/git/cyclops/public/expenses/" (22809 63334 311771 866000) "./" "qa-expenses.html" "../" "index.html")
+
+ ("/home/leonardo/git/cyclops/routes/" (22812 36919 503093 735000) "__init__.py" "./" "iptu.py" "invoice.py" "boleto.py" "manager.py" "google.py" "entry.py" "file.py" "home.py" "monthly_closing.py" "contract.py" "seubarriga.py" "../" "sispag.py")
+
+ ("/home/leonardo/git/docker-python-image-utils/" (22812 32091 222774 973000) "./" "Dockerfile" ".git/" "requirements.txt" "deploy/" "../")
+
+ ("/home/leonardo/git/docker-python3-mongo/" (22811 10209 688884 672000) "./" "README.md" "Dockerfile" ".git/" "requirements.txt" "../")
+
+ ("/home/leonardo/git/cyclops/tests/entities/" (22811 8499 452466 499000) "test_entry_description.py" "./" "test_entities.py" "test_boleto.py" "../")
+
+ ("/home/leonardo/git/seubarriga/utils/" (22803 26823 926415 777000) "./" "get_contracts.py" "dump_invoices.py" "__pycache__/" "dump_contract_rental_histories.py" "dump_cobrancas.py" "sqs.py" "sample_cobranca.json" "../" "dump_banks.py" "sns.py" "dump_contracts.py" "load_test.py" "request.sh" "contracts.py")
+
+ ("/home/leonardo/git/cyclops/aws/" (22803 9762 41593 863000) "__init__.py" "./" "__pycache__/" "sqs.py" "sqs_fifo.py" "../")
+
+ ("/home/leonardo/git/cyclops/services/" (22802 18740 117847 490000) "__init__.py" "./" "contract_translator.py" "es.py" "seu_barriga.py" "__pycache__/" "contract_sqs.py" "../" "cache.py")
+
+ ("/home/leonardo/git/cyclops/public/iptu/" (22802 11548 195504 138000) "qa-iptu-row.html" "./" "qa-iptu-filter.html" "qa-iptu.html" "../" "index.html")
+
+ ("/home/leonardo/dev/" (22802 10930 104499 313000) "./" "iptu.py" "backup_iptu.js" "test_scheduler.py" "../" "iptu.js")
+
+ ("/home/leonardo/git/cyclops/deploy/" (22792 43785 323251 392000) "Dockerrun.aws.json" "./" "server.ini" "entrypoint.sh" "server_local.ini" "../")
+
+ ("/home/leonardo/git/search/search_py/api/controllers/" (22796 53470 862740 206000) "index.pyc" "mocksearch.py" "test.py" "sitemap.py" "auth.py" "__init__.py" "./" "lead.pyc" "files.py" "customerror.py" "authmanager.py" "sitemap.pyc" "emails.py" "searchcriteria.pyc" "desconto.py" "redirect.py" "test.pyc" "redirect.pyc" "bounds.py" "search.py" "mensagem.py" "imovel.pyc" "statichtml.pyc" "agendamento.py" "files.pyc" "lead.py" "emails.pyc" "classifieds.py" "classifieds.pyc" "agendamento.pyc" "visitas.py" "searchcriteria.py" "filters.py" "mensagem.pyc" "auth.pyc" "filters.pyc" "statichtml.py" "search.pyc" "desconto.pyc" "imovel.py" "visitas.pyc" "../" "index.py" "customerror.pyc" "__init__.pyc" "authmanager.pyc")
+
+ ("/home/leonardo/git/search/search_py/static/" (22796 42850 454379 89000) "./" "js/" "img/" "css/" "pdf/" "minified/" "fonts/" "less/" "../" "COMPILED/")
+
+ ("/home/leonardo/git/search/search_py/" (22796 42773 839768 99000) "__init__.py" "./" "static/" "templates/" "templatetags/" ".eslintrc.js" "api/" "tests/" "config/" "../" "__init__.pyc")
+
+ ("/home/leonardo/git/search/search_py/templates/" (22796 53007 383679 807000) "./" "util/" "visitas.html" "listingnotfound.html" "opensearch.xml" "robots_producao.txt" "layouts/" "favoritos.html" "google88081f0ee9df093a.html" "carrinho_agendamento.html" "404.html" "googlefbe4f68c213f0539.html" "buscas-populares.html" "erro.html" "desconto.html" "mobile/" "email/" "blocks/" "svgs/" "partials/" "visita-cancelada.html" "sugestaopreco.html" "facebooklogin.html" ".well-known/" "robots_forno.txt" "busca.html" "jornada-inquilino.html" "sitemap.xml" "detalharimovel.html" "../" "index.html")
+
+ ("/home/leonardo/git/search/" (22796 42723 862009 860000) "package.json" "./" "manage.py" ".gitignore" ".ebextensions/" "readme.md" "static_files.py" ".babelrc" "search_py/" "node_modules/" "scripts/" "s3cmd.conf" ".git/" "requirements.txt" "../" "gulpfile.js" "requirements_local.txt")
+
+ ("/home/" (22789 15172 98657 270000) "./" "leonardo/" "../")
+
+ ("/home/leonardo/git/cyclops/utils/" (22794 6934 767691 996000) "__init__.py" "./" ".#__init__.py" "boleto_process_status.py" "flask_utils.py" "holidays.py" "log_utils.py" "__pycache__/" "jwt_utils.py" "locale.py" "../")
+
+ ("/home/leonardo/git/dotfiles/zsh/" (22789 17410 839266 140000) "./" ".zshrc" "../")
+
+ ("/home/leonardo/git/dotfiles/" (22789 16913 172425 117000) "./" ".gitignore" "zsh/" "emacs/" ".git/" "../")
+
  ("/home/leonardoalmeida/git/cyclops/tests/condominium/" (22787 38955 582059 6000) "../" "test_boleto_process.py" "./" ".#test_boleto_process.py" "test_reader_service.py" "__pycache__/")
 
  ("/home/leonardoalmeida/git/cyclops/tests/" (22787 31286 179111 759000) "test_itau_crawler.py" "condominium/" "test_bar_code_scanner.pyc" "routes/" "google/" "teste_google_drive.pyc" "reports/" "test_ocr_utils.pyc" "../" "utils/" "files/" "test_downloader.py" "test_ocr_utils.py" "test_bar_code_utils.py" "test_db.py" "./" "test_gmail.py" "test_bar_code_reader.pyc" "conftest.py" "__init__.py" "test_bar_code_utils.pyc" "controllers/" "test_reader_service.pyc" "test_status_check.py" "test_downloader.pyc" "test_google_drive.pyc" "aws/" "test_banks.py" "test_bar_code_scanner.py" "test_dynamo.pyc" "__pycache__/" "test_guesser.py" "test_bar_code_reader.py" "entities/")
@@ -79,8 +293,6 @@
  ("/usr/local/" (22784 47516 504928 728000) "man/" "share/" "selenium/" "cherrypy/" "games/" "../" "README.rst" "src/" "go/" "./" "include/" "bin/" "sbin/" "etc/" "lib/")
 
  ("/usr/" (22434 3085 262313 986000) "share/" "games/" "../" "src/" "./" "include/" "bin/" "sbin/" "lib32/" "locale/" "lib/" "local/")
-
- ("/home/" (22431 15143 376001 509000) "quintoandar/" "../" "./" "leonardoalmeida/")
 
  ("/home/leonardoalmeida/" (22787 29713 482342 515000) ".m2/" "Public/" ".octave_hist" "client_secret_627944003456-rp987aoik2chb4qbo08ul2sb0jtfp68l.apps.googleusercontent.com.json" "client_secret_453407650141-vi885c74hpageopldtu3hik23ohgjc0l.apps.googleusercontent.com.json" "captcha.bmp" "12121601.PAG" "Music/" "hello.js" "1" "example.png" ".zsnes/" ".pip/" "workspace1/" "test_me.py" "qt2.py" "b" ".selected_editor" "20161208195733_duplicados.csv" "botclean.py" "captcha.bmp.jpg" "15121601.PAG" ".sophiware/" ".node_repl_history" ".v8flags.4.5.103.36.leonardoalmeida.json" ".wget-hsts" "My Project-336be7564242.json" "20161212182055_duplicados.csv" "16121612.PAG" ".atom/" "examples.desktop" "git/" ".npm/" "backup2/" "15121602.csv" "status.py" ".thumbnails/" "15121601.csv" "iptu.csv" "12121604.csv" "test.html" "20121601.PAG" "e.png" "20161107185728_duplicados.csv" "node_modules/" "duplicados.csv" ".gitconfig" ".fltk/" ".zcompdump" "Videos/" "07031705.PAG" "iptu_2016.json" ".viminfo" ".mysql_history" ".gnupg/" "b.cache" "2.org" "12121603.csv" "reports/" "dup.js" ".gnome/" ".ipython/" "2016.10.06.boletos.xlsx" "2016.10.11 67896 Condominio.pdf" "IPTU_2016.csv" "import_seu_barriga.sh" "#2.org#" "iptu_erros.csv" "getCaptcha.jpg" ".vscode/" "config_atom/" ".boto" "saida_guesser.txt" "bla.html" "docker.tar.gz" ".lesshst" ".vimrc" "transactor.properties" ".compiz/" ".cache/" ".lein/" ".bash_logout" ".ssh/" "1.org" "read_sispag.py" "Desktop/" "20161221192229_relatorio_boletos.csv" ".adobe/" "credentials/" "teamviewer_11.0.57095_i386.deb" "#1.org#" ".thunderbird/" ".zcompdump-SPF1LT-000632-5.1.1" "captcha2.bmp" "bla.txt" "a.png" "20161220193233_duplicados.csv" "workspace/" "other.json" ".macromedia/" "2016.11.07 84304 Condominio.pdf" "stderr" "test.py" "mozilla.pdf" "iptu.py" "12121601.csv" ".solarized/" "go/" ".rnd" ".eclipse/" "server.log" "2016.10.10.boletos.xlsx" "bla.sh" "test.pyc" "2016.10.11.boletos.csv" ".zshrc" "2016.12.20 89494 Condominio.pdf" "Downloads/" "dev/" "bla.bmp" "infra" "16121613.PAG" "20161221192229_relatorio_boletos (1).csv" "dup.json" "bla.rb" ".nvidia-settings-rc" ".gnome2_private/" "novos.csv" "2016.10.06.boletos.csv" "2016.10.15 87119 Condominio.pdf" "20161213194809_duplicados.csv" ".env.sh" "2.html" "client_secret.json" "codigos com erro.csv" ".dmrc" "15121612.PAG" "16121612.csv" "bla.js" "backup/" "13121601.PAG" "12345.00701105021.2016.10.161101172024.pdf" "iptu_2016.js" "appscript-freemarkerbodywriterdocx-googledriveapi.txt" ".autobench.conf" "a" ".java/" "2016.10.15 72708 Condominio.pdf" ".zsh_history" ".credentials/" ".IdeaIC2017.1/" "contracts.txt" ".bash_history" "work/" "16121602.PAG" "d.png" "MyProject-336be7564242.json" ".pki/" "mongo/" ".gconf/" "Pictures/" ".zsh-update" "2016.10.10.boletos.csv" ".local/" ".bashrc" "SISPAG01.PAG" ".ICEauthority" "saida.txt" ".fonts/" ".gsutil/" ".vim/" "cron.log" "2016.11.05 82755 Condominio.pdf" "12121602.csv" "oauth.txt" ".gimp-2.8/" ".p2/" "gmail.txt" "a.py" "20161212182417_duplicados.csv" ".oh-my-zsh/" ".Xauthority" "dump/" ".hplip/" "interviewing.org" ".dotfiles/" ".xsession-errors" "4.json" "2016.11.05 71152 Condominio.pdf" ".sudo_as_admin_successful" "2016.10.07.boletos.csv" "test_sc.py" ".rediscli_history" "16121602.csv" ".virtualenvs/" "celery.log" ".mongorc.js" "20121601.csv" "b.jpg" ".dbshell" ".mozilla/" "report_despesas.csv" "2016.10.05.boletos.xlsx" ".zcompdump-SPF1LT-000632-5.0.2" ".emacs.d/" "1234.json" "test_emacs.py" "update_date.py" "test_spider.py" ".xsession-errors.old" "interview.md" ".jupyter/" "20161212182519_duplicados.csv" "20161212182613_duplicados.csv" "blabla.cache" ".dbus/" "Boostnote/" "captcha2.bmp.jpg" "blabla" ".pylint.d/" "interview1.org" "decodeJWT.clj" "20161212181836_duplicados.csv" ".shutter/" ".zshrc.backup" "stdout" "a.txt" ".profile" "2016.10.15 88428 Condominio.pdf" "__pycache__/" ".gnome2/" "Documents/" "qt.py" "a.jpg" "key.txt" ".python_history" "15121617.PAG" "Templates/" ".nano/" "15121613.PAG" ".config/" "workspace2/" ".swt/" ".spacemacs" "b.png" "interview/" "c.png" "../" "./")
 
@@ -109,24 +321,6 @@
  ("/home/leonardoalmeida/git/cyclops/crawler/" (22785 10102 734417 305000) "ghostdriver.log" "webware.py" "../" "pdf_file_status.py" "./" "itau.py" "utils.py" "main.py" "__pycache__/" "lello.py")
 
  ("/home/leonardoalmeida/git/cyclops/sispag_boleto/" (22785 2685 776721 970000) "sispag_tributo_generator.py" "trailer_lote_tributo.py" "header.py" "detalhe_boleto.py" "trailer_lote_boleto.py" "../" "sispag_type.py" "./" "trailer.py" "sispag_boleto_generator.py" "detalhe_tributos.py" "__pycache__/" "sispag_service.py" "sispag_generator.py" "header_lote.py" "line_generator.py")
-
- ("/home/leonardoalmeida/git/cyclops/public/assets/js/" (22785 1403 213144 728000) "../" "./" "main.js" "constants.js")
-
- ("/home/leonardoalmeida/git/cyclops/public/boletos/" (22784 63220 919946 282000) "qa-boletos.html" "qa-boleto-row.html" "../" "index.html" "qa-boleto-filter.html" "./" "qa-boleto-file.html" "qa-boleto-edit.html" "qa-boletos-report.html")
-
- ("/home/leonardoalmeida/git/cyclops/public/" (22784 63220 919946 282000) "polymer.json" "bower_components/" "iptu/" "build/" "bower.json" "../" "files/" "index.html" "favicon5A-48x48.png" "assets/" "./" "boletos/" "expenses/" "views/" "cyclops-components/" "qa-components/")
-
- ("/home/leonardoalmeida/.emacs.d/" (22782 47526 0 0) "themes/" "ido.last" "init.el" "snippets/" "init.el~" "backups/" ".smex-items" ".recentf" "auto-save-list/" "../" "ac-comphist.dat" "./" "elpa/" "projectile-bookmarks.eld")
-
- ("/home/leonardo/git/cyclops/public/boletos/" (22782 45632 490279 170000) "qa-boleto-edit.html" "qa-boleto-filter.html" "qa-boleto-row.html" "../" "./" ".#qa-boletos.html" "qa-boletos.html" "index.html" "qa-boletos-report.html")
-
- ("/home/leonardo/git/cyclops/public/" (22782 45376 771871 204000) "cyclops-components/" "views/" "iptu/" "favicon5A-48x48.png" "../" "./" "bower.json" "boletos/" "polymer.json" "files/" "expenses/" "assets/" "qa-components/" "index.html")
-
- ("/home/leonardo/git/cyclops/" (22782 45376 791871 352000) "requirements_worker.txt" "webserver.Dockerfile" "mainp.py" "google/" "reports/" ".git/" "services/" "iptu/" "requirements.txt" ".drone.yml" "parser/" "build.sh" "crawler/" "requirements_tests.txt" "requirements_webserver.txt" "routes/" "app.py" "dynamo/" "README.md" ".gitmodules" "../" ".gitignore" "./" "condominium/" "utils/" "sispag.properties" "worker.Dockerfile" "sispag/" ".dockerignore" "run_local.py" "s3/" "controllers/" "tests/" "public/" "gmail_process.py" "deploy/" "entities/" "sispag_boleto/" "worker-gmail.Dockerfile")
-
- ("/home/leonardo/git/" (22782 45369 407816 157000) "Lyra/" "cyclops/" "../" "./" "pylyra/")
-
- ("/home/leonardo/" (22782 45369 403816 128000) "Videos/" ".gtkrc-2.0" ".ssh/" ".ipython/" ".dmrc" "75923343800-IRPF-2017-2016-origi-imagem-recibo.pdf" ".zcompdump-leonardo-PC-5.2" ".bashrc" ".Public/" "emacs.tar.gz" "git/" ".kingsoft/" ".local/" "grep" ".gnupg/" "IRPF2017_LEO_E_LUIZ.zip" "Pictures/" ".dbus/" ".bash_logout" ".gitconfig" ".wget-hsts" ".python_history" ".oh-my-zsh/" ".cache/" "../" ".Templates/" ".receitanet/" "./" "32290869880-IRPF-2017-2016-origi-imagem-recibo.pdf" ".avfs/" ".xsession-errors" ".viminfo" ".bash_aliases" "Music/" ".gconf/" ".java/" ".emacs.d/" ".pki/" ".icons/" ".config/" ".Xauthority" "backup/" "Desktop/" ".xsession-errors.old" ".profile" "Documents/" "Downloads/" ".bash_history" ".zsh-update" ".gnome/" ".themes/" ".gksu.lock" ".zsh_history" "test.py" "75923343800-IRPF-2017-2016-origi-imagem-darfcodbarras.pdf" ".zshrc" "ProgramasRFB/")
 )
 
 ;; ----- ido-unc-hosts-cache -----

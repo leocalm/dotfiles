@@ -1,1 +1,1 @@
-("~/git/cyclops/")
+("~/git/dotfiles/" "~/git/cyclops/" "~/git/seubarriga/" "~/git/cyclops/public/qa-components/" "~/git/main/" "~/git/search/" "~/git/docker-python3-mongo/" "~/git-leo/cyclops/" "~/git-leo/dotfiles/" "~/git-leo/search/" "~/git/docker-python-image-utils/" "~/git-leo/pylyra/" "~/git/pylyra/" "~/.oh-my-zsh/")

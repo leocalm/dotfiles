@@ -22,14 +22,14 @@
 
     ;; key bindings and code colorization for Clojure
     ;; https://github.com/clojure-emacs/clojure-mode
-    ;; clojure-mode
+    clojure-mode
 
     ;; extra syntax highlighting for clojure
-    ;; clojure-mode-extra-font-locking
+    clojure-mode-extra-font-locking
 
     ;; integration with a Clojure REPL
     ;; https://github.com/clojure-emacs/cider
-    ;; cider
+    cider
 
     ;; allow ido usage in as many contexts as possible. see
     ;; customizations/navigation.el line 23 for a description
@@ -66,6 +66,7 @@
     ;; Python packages
     elpy
     flycheck
+    pyenv-mode
 
     auto-complete
 
@@ -76,6 +77,12 @@
     web-mode
 
     smartparens
+
+    powerline
+
+    langtool
+
+    py-autopep8
     ))
 
 (dolist (p my-packages)
@@ -86,6 +93,14 @@
 ;; Configs
 (require 'ido)
 (ido-mode t)
+
+;; langtool
+(require 'langtool)
+(setq langtool-language-tool-jar "/home/leonardo/Downloads/LanguageTool-3.7/languagetool-commandline.jar")
+(setq langtool-default-language "en-US")
+
+;; fontify code in code blocks
+(setq org-src-fontify-natively t)
 
 ;; This allows partial matches, e.g. "tl" will match "Tyrion Lannister"
 (setq ido-enable-flex-matching t)
@@ -221,7 +236,7 @@
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
- '(package-selected-packages (quote (helm rainbow-delimiters))))
+ '(package-selected-packages (quote (py-autopep8 helm rainbow-delimiters))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
@@ -241,6 +256,9 @@
 (require 'spaceline-config)
 (spaceline-spacemacs-theme)
 (spaceline-toggle-version-control-on)
+
+;; (require 'powerline)
+;; (powerline-default-theme)
 
 ;; Removing trailing whitespace on save
 (add-hook 'before-save-hook 'delete-trailing-whitespace)
@@ -268,6 +286,8 @@
   (highlight-indentation-mode 0)))
 (add-hook 'elpy-mode-hook #'smartparens-mode)
 
+(setq py-autopep8-options '("--aggressive" "--aggressive"))
+
 ;; Web mode
 
 (require 'web-mode)
@@ -279,6 +299,8 @@
 (add-to-list 'auto-mode-alist '("\\.mustache\\'" . web-mode))
 (add-to-list 'auto-mode-alist '("\\.djhtml\\'" . web-mode))
 (add-to-list 'auto-mode-alist '("\\.html?\\'" . web-mode))
+(add-to-list 'auto-mode-alist '("\\.es6?\\'" . js-jsx-mode))
+
 
 (setq web-mode-style-padding 4)
 (setq web-mode-script-padding 4)
@@ -297,3 +319,13 @@
   (local-set-key (kbd "RET") 'newline-and-indent)))
 (add-hook 'elpy-mode-hook       #'electric-pair-mode)
 (setq web-mode-enable-auto-indentation nil)
+
+
+;; ORG Mode
+(setq org-todo-keywords
+       '((sequence "TODO" "STARTED" "|" "DONE" "CANCELED")))
+(setq org-todo-keyword-faces
+      '(("TODO" . org-warning)
+        ("STARTED" . (:foreground "yellow" :weight bold))
+        ("CANCELED" . (:foreground "blue" :weight bold))
+        ("DONE" . (:foreground "green" :weight bold))))

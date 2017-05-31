@@ -1,5 +1,5 @@
 # Path to your oh-my-zsh installation.
-export ZSH=/home/leonardoalmeida/.oh-my-zsh
+export ZSH=/home/leonardo/.oh-my-zsh
 
 # Set name of the theme to load.
 # Look in ~/.oh-my-zsh/themes/
@@ -9,7 +9,7 @@ export ZSH=/home/leonardoalmeida/.oh-my-zsh
 # ZSH_THEME="agnoster"
 ZSH_THEME="robbyrussell"
 
-DEFAULT_USER=leonardoalmeida
+DEFAULT_USER=leonardo
 TERM="xterm-256color"
 
 # Uncomment the following line to use case-sensitive completion.
@@ -60,8 +60,8 @@ plugins=(git cp python bower pip themes lein)
 # export PATH=$PATH:/usr/local/go/bin
 # export MANPATH="/usr/local/man:$MANPATH"
 
-source ~/.env.sh
-source $ZSH/oh-my-zsh.sh
+# source ~/.env.sh
+# source $ZSH/oh-my-zsh.sh
 
 # You may need to manually set your language environment
 # export LANG=en_US.UTF-8
@@ -91,7 +91,7 @@ alias ll="ls -lah"
 alias python="python3"
 
 # The next line updates PATH for the Google Cloud SDK.
-if [ -f '/home/leonardoalmeida/Downloads/google-cloud-sdk/path.zsh.inc' ]; then source '/home/leonardoalmeida/Downloads/google-cloud-sdk/path.zsh.inc'; fi
+# if [ -f '/home/leonardo/Downloads/google-cloud-sdk/path.zsh.inc' ]; then source '/home/leonardoalmeida/Downloads/google-cloud-sdk/path.zsh.inc'; fi
 
 # The next line enables shell command completion for gcloud.
-if [ -f '/home/leonardoalmeida/Downloads/google-cloud-sdk/completion.zsh.inc' ]; then source '/home/leonardoalmeida/Downloads/google-cloud-sdk/completion.zsh.inc'; fi
+# if [ -f '/home/leonardo/Downloads/google-cloud-sdk/completion.zsh.inc' ]; then source '/home/leonardoalmeida/Downloads/google-cloud-sdk/completion.zsh.inc'; fi
