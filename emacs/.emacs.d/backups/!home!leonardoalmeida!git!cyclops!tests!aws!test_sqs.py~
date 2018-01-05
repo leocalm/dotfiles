@@ -1,3 +1,0 @@
-from aws.sqs import SQS
-
-def test_get_messages()

@@ -1,0 +1,27 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode jdee-mode
+      :tags 
+        '( ("br.com.quintoAndar.cobranca" package nil nil [1 37])
+            ("com.fasterxml.jackson.annotation.JsonProperty" include nil nil [39 92])
+            ("InvoicePaymentSms" type
+               (:typemodifiers ("public")
+                :members 
+                  ( ("userName" variable
+                       (:typemodifiers ("private")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [173 197]))                  
+                :type "class")
+                nil [109 199]))          
+      :file "InvoicePaymentSms.java"
+      :pointmax 200
+      :fsize 197
+      :lastmodtime '(23073 34710 756373 570000)
+      :unmatched-syntax nil))
+  :file "!home!leonardo!git!main!implementation!business!src!main!java!br!com!quintoAndar!cobranca!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

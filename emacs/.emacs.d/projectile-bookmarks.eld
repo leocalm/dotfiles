@@ -1,1 +1,1 @@
-("~/git/dotfiles/" "~/git/cyclops/" "~/git/seubarriga/" "~/git/cyclops/public/qa-components/" "~/git/main/" "~/git/search/" "~/git/docker-python3-mongo/" "~/git-leo/cyclops/" "~/git-leo/dotfiles/" "~/git-leo/search/" "~/git/docker-python-image-utils/" "~/git-leo/pylyra/" "~/git/pylyra/" "~/.oh-my-zsh/")
+("~/git/kafka-docker/" "~/git/sorting-hat/" "~/git/cyclops/" "~/git/docker-pipenv-vuejs/" "~/git/seubarriga/" "~/Downloads/" "~/git/main/" "~/git/ustasks/" "~/git/properties/" "~/.oh-my-zsh/custom/themes/powerlevel9k/")

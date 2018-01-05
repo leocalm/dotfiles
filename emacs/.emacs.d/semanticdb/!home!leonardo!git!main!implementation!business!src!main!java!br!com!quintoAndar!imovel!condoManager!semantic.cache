@@ -1,0 +1,26 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode jdee-mode
+      :tags 
+        '( ("br.com.quintoAndar.imovel.condoManager" package nil nil [1 48])
+            ("br.com.quintoAndar.common.EntidadeAuditadaRepositoryBean" include nil nil [50 114])
+            ("br.com.quintoAndar.imovel.Imovel" include nil nil [115 155])
+            ("org.hibernate.Criteria" include nil nil [156 186])
+            ("org.hibernate.Hibernate" include nil nil [187 218])
+            ("org.hibernate.Query" include nil nil [219 246])
+            ("org.hibernate.criterion.Projections" include nil nil [247 290])
+            ("org.hibernate.criterion.Restrictions" include nil nil [291 335])
+            ("org.springframework.stereotype.Repository" include nil nil [336 385])
+            ("java.util.List" include nil nil [387 409]))          
+      :file "CondoManagerRepositoryBean.java"
+      :pointmax 3772
+      :fsize 3771
+      :lastmodtime '(23090 37490 544232 553000)
+      :unmatched-syntax '((BRACE_BLOCK 550 . 3771) (IDENTIFIER 527 . 549) (IMPLEMENTS 516 . 526) (GT 514 . 515) (IDENTIFIER 502 . 514) (LT 501 . 502) (IDENTIFIER 411 . 422))))
+  :file "!home!leonardo!git!main!implementation!business!src!main!java!br!com!quintoAndar!imovel!condoManager!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

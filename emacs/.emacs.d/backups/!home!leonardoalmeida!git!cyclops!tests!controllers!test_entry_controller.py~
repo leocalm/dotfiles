@@ -1,7 +1,0 @@
-import re
-from controllers.entry import EntryController
-import tests.routes.data as test_data
-from services.seu_barriga import SeuBarriga
-import requests_mock
-import requests
-import pytest

@@ -1,5 +1,0 @@
-from google.drive import Drive
-
-
-def test_get_folders():
-    drive = Drive()

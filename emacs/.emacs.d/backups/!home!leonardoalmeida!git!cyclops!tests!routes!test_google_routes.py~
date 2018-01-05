@@ -1,3 +1,0 @@
-def test_get_url(app):
-    response = app.get('/google/get-url')
-    assert response.status_code == 302
