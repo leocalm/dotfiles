@@ -22,8 +22,6 @@
 (defvar my-packages
   '(
     use-package
-
-    info+
     ))
 
 (dolist (p my-packages)
@@ -37,13 +35,16 @@
  ;; If there is more than one, they won't work right.
  '(jdee-server-dir "~/jdee_server")
  '(org-agenda-files (quote ("~/tasks.org")))
- '(package-selected-packages (quote (markdown-mode magit))))
+ '(package-selected-packages (quote (pyenv multiple-cursors markdown-mode magit))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
  )
+
+(require 'use-package)
+;; (setq use-package-always-ensure t)
 
 (add-to-list 'load-path "~/.emacs.d/vendor")
 (add-to-list 'load-path "~/.emacs.d/customizations")

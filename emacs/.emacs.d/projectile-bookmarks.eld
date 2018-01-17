@@ -1,1 +1,1 @@
-("~/git/kafka-docker/" "~/git/sorting-hat/" "~/git/cyclops/" "~/git/docker-pipenv-vuejs/" "~/git/seubarriga/" "~/Downloads/" "~/git/main/" "~/git/ustasks/" "~/git/properties/" "~/.oh-my-zsh/custom/themes/powerlevel9k/")
+("~/git/cyclops/" "~/Downloads/" "~/git/seubarriga/" "~/git/sorting-hat/" "~/git/kafka-docker/" "~/git/docker-pipenv-vuejs/" "~/git/main/" "~/git/ustasks/" "~/git/properties/" "~/.oh-my-zsh/custom/themes/powerlevel9k/")

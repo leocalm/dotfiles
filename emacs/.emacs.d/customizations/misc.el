@@ -20,8 +20,11 @@
 (setq inhibit-startup-message t)
 
 ;; Enabling IDO
+(require 'ido)
+(setq ido-enable-flex-matching t)
+(setq ido-everywhere t)
+(setq ido-create-new-buffer 'always)
 (ido-mode 1)
-(ido-everywhere 1)
 
 ;; IDO ubiquitous
 (use-package ido-completing-read+
@@ -89,6 +92,7 @@
   :defer t
   :config
   (projectile-discover-projects-in-directory "~/git")
+  (setq projectile-enable-caching t)
   ;; Workaround to avoid projectile making the editor very slow
   ;; https://github.com/bbatsov/projectile/issues/1183#issuecomment-335569547
   (setq projectile-mode-line
@@ -110,6 +114,35 @@
   :init (setq markdown-command "multimarkdown"))
 
 (use-package markdown-preview-mode)
+
+(use-package multiple-cursors
+  :ensure t
+  :init
+  (global-set-key (kbd "C-S-c C-S-c") 'mc/edit-lines)
+  (global-set-key (kbd "C->") 'mc/mark-next-like-this)
+  (global-set-key (kbd "C-<") 'mc/mark-previous-like-this)
+  (global-set-key (kbd "C-c C-<") 'mc/mark-all-like-this))
+
+(use-package info+
+  :ensure t)
+
+(defun move-line-up ()
+  "Move the current line up."
+  (interactive)
+  (transpose-lines 1)
+  (forward-line -2))
+
+(defun move-line-down ()
+  "Move the current line down."
+  (interactive)
+  (forward-line 1)
+  (transpose-lines 1)
+  (forward-line -1))
+
+;; Keybindings for moving lines up and down
+(global-set-key (kbd "M-<up>") 'move-line-up)
+(global-set-key (kbd "M-<down>") 'move-line-down)
+
 
 (provide 'misc)
 ;;; misc.el ends here
