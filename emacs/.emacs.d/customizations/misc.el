@@ -106,7 +106,6 @@
 (use-package page-break-lines)
 
 (use-package markdown-mode
-  :ensure t
   :commands (markdown-mode gfm-mode)
   :mode (("README\\.md\\'" . gfm-mode)
          ("\\.md\\'" . markdown-mode)
@@ -116,15 +115,13 @@
 (use-package markdown-preview-mode)
 
 (use-package multiple-cursors
-  :ensure t
   :init
   (global-set-key (kbd "C-S-c C-S-c") 'mc/edit-lines)
   (global-set-key (kbd "C->") 'mc/mark-next-like-this)
   (global-set-key (kbd "C-<") 'mc/mark-previous-like-this)
   (global-set-key (kbd "C-c C-<") 'mc/mark-all-like-this))
 
-(use-package info+
-  :ensure t)
+(use-package info+)
 
 (defun move-line-up ()
   "Move the current line up."

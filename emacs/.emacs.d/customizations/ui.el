@@ -14,7 +14,7 @@
 
 (global-hl-line-mode)
 
-(set-frame-font "Hack 11" nil t)
+(set-frame-font "Hack 10" nil t)
 
 ;; These settings relate to how emacs interacts with your operating system
 (setq ;; makes killing/yanking interact with the clipboard

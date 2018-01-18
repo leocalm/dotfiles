@@ -44,7 +44,8 @@
  )
 
 (require 'use-package)
-;; (setq use-package-always-ensure t)
+;; Automatic install all packages declared using use-package
+(setq use-package-always-ensure t)
 
 (add-to-list 'load-path "~/.emacs.d/vendor")
 (add-to-list 'load-path "~/.emacs.d/customizations")
