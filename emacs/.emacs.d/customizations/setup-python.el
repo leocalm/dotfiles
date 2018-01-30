@@ -7,7 +7,7 @@
   (elpy-enable)
   (elpy-use-ipython))
 
-(use-package pyenv
+(use-package pyenv-mode
   :config
   (pyenv-mode))
 
