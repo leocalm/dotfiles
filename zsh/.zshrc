@@ -1,16 +1,21 @@
+# If you come from bash you might have to change your $PATH.
+# export PATH=$HOME/bin:/usr/local/bin:$PATH
+
+export TERM="xterm-256color"
+
+# Start TMUX automatically
+export ZSH_TMUX_AUTOSTART=true
+
 # Path to your oh-my-zsh installation.
 export ZSH=/home/leonardo/.oh-my-zsh
 
-# Set name of the theme to load.
-# Look in ~/.oh-my-zsh/themes/
-# Optionally, if you set this to "random", it'll load a random theme each
-# time that oh-my-zsh is loaded.
-# ZSH_THEME="agnoster-fcamblor"
-# ZSH_THEME="agnoster"
-ZSH_THEME="robbyrussell"
-
-DEFAULT_USER=leonardo
-TERM="xterm-256color"
+# Set name of the theme to load. Optionally, if you set this to "random"
+# it'll load a random theme each time that oh-my-zsh is loaded.
+# See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
+#ZSH_THEME="robbyrussell"
+#ZSH_THEME="bullet-train"
+#ZSH_THEME="dracula"
+ZSH_THEME="powerlevel9k/powerlevel9k"
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
@@ -35,7 +40,7 @@ TERM="xterm-256color"
 # ENABLE_CORRECTION="true"
 
 # Uncomment the following line to display red dots whilst waiting for completion.
-COMPLETION_WAITING_DOTS="true"
+# COMPLETION_WAITING_DOTS="true"
 
 # Uncomment the following line if you want to disable marking untracked files
 # under VCS as dirty. This makes repository status check for large repositories
@@ -54,14 +59,13 @@ COMPLETION_WAITING_DOTS="true"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git cp python bower pip themes lein)
+plugins=(git)
+
+source $ZSH/oh-my-zsh.sh
 
 # User configuration
-# export PATH=$PATH:/usr/local/go/bin
-# export MANPATH="/usr/local/man:$MANPATH"
 
-# source ~/.env.sh
-# source $ZSH/oh-my-zsh.sh
+# export MANPATH="/usr/local/man:$MANPATH"
 
 # You may need to manually set your language environment
 # export LANG=en_US.UTF-8
@@ -77,7 +81,7 @@ plugins=(git cp python bower pip themes lein)
 # export ARCHFLAGS="-arch x86_64"
 
 # ssh
-# export SSH_KEY_PATH="~/.ssh/dsa_id"
+# export SSH_KEY_PATH="~/.ssh/rsa_id"
 
 # Set personal aliases, overriding those provided by oh-my-zsh libs,
 # plugins, and themes. Aliases can be placed here, though oh-my-zsh
@@ -87,11 +91,44 @@ plugins=(git cp python bower pip themes lein)
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-alias ll="ls -lah"
-alias python="python3"
 
-# The next line updates PATH for the Google Cloud SDK.
-# if [ -f '/home/leonardo/Downloads/google-cloud-sdk/path.zsh.inc' ]; then source '/home/leonardoalmeida/Downloads/google-cloud-sdk/path.zsh.inc'; fi
+#. /home/leonardo/Downloads/powerline/powerline/bindings/zsh/powerline.zsh
+#. /usr/lib/python3.6/site-packages/powerline/bindings/zsh/powerline.zsh
 
-# The next line enables shell command completion for gcloud.
-# if [ -f '/home/leonardo/Downloads/google-cloud-sdk/completion.zsh.inc' ]; then source '/home/leonardoalmeida/Downloads/google-cloud-sdk/completion.zsh.inc'; fi
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+
+alias datomic_prod="/home/leonardo/Downloads/datomic-pro-0.9.5394/bin/console -p 9998 sql 'datomic:sql://?jdbc:mysql://pod001-production-seubarriga.ciuoqxapzjot.us-east-1.rds.amazonaws.com:3306/datomic?user=QuintoAndar&password=a7sjFYiRoeKLFXHYKwkJDanajC7dVTZv'"
+
+export PYENV_ROOT="$HOME/.pyenv"
+
+export MVN_ROOT="/opt/maven/bin"
+
+export PATH="$PYENV_ROOT/bin:$MVN_ROOT:$PATH"
+if command -v pyenv 1>/dev/null 2>&1; then
+  eval "$(pyenv init -)"
+fi
+eval "$(pyenv virtualenv-init -)"
+
+POWERLEVEL9K_MODE=awesome-fontconfig
+POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(os_icon dir_writable dir vcs)
+POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(status pyenv nvm ram root_indicator background_jobs history time)
+POWERLEVEL9K_SHORTEN_DIR_LENGTH=1
+POWERLEVEL9K_TIME_FORMAT="%D{%H:%M %m.%d.%y}"
+POWERLEVEL9K_TIME_FORMAT="%D{%H:%M:%S}"
+POWERLEVEL9K_STATUS_VERBOSE=false
+
+#POWERLEVEL9K_SHORTEN_STRATEGY="truncate_from_right"
+POWERLEVEL9K_NODE_VERSION_BACKGROUND='022'
+
+#POWERLEVEL9K_SHORTEN_DIR_LENGTH=4
+POWERLEVEL9K_OS_ICON_BACKGROUND="white"
+POWERLEVEL9K_OS_ICON_FOREGROUND="blue"
+POWERLEVEL9K_DIR_HOME_FOREGROUND="white"
+POWERLEVEL9K_DIR_HOME_SUBFOLDER_FOREGROUND="white"
+POWERLEVEL9K_DIR_DEFAULT_FOREGROUND="white"
+POWERLEVEL9K_CONTEXT_TEMPLATE="%n"
+
+# OPAM configuration
+. /home/leonardo/.opam/opam-init/init.zsh > /dev/null 2> /dev/null || true
