@@ -1,4 +1,5 @@
-;;; package --- Summary
+;;open agenda in current window
+(setq org-agenda-window-setup (quote current-window));;; package --- Summary
 
 ;;; Commentary:
 ;;; Code:
@@ -34,8 +35,10 @@
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
  '(jdee-server-dir "~/jdee_server")
- '(org-agenda-files (quote ("~/tasks.org")))
- '(package-selected-packages (quote (pyenv multiple-cursors markdown-mode magit))))
+ '(org-agenda-files (quote ("~/org/tasks.org")))
+ '(package-selected-packages
+   (quote
+    (vue-mode pyenv multiple-cursors markdown-mode magit))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
@@ -53,6 +56,7 @@
 ;; Customizations
 (load "ui.el")
 (load "misc.el")
+(load "org-config.el")
 
 ;; Coding
 (load "dev.el")

@@ -141,5 +141,16 @@
 (global-set-key (kbd "M-<down>") 'move-line-down)
 
 
+;; Set to the location of your Org files on your local system
+(setq org-directory "~/org")
+;; Set to the name of the file where new notes will be stored
+(setq org-mobile-inbox-for-pull "~/org/tasks.org")
+;; Set to <your Dropbox root directory>/MobileOrg.
+(setq org-mobile-directory "~/Dropbox/Aplicativos/MobileOrg")
+
+(setq org-todo-keyword-faces
+      '(("TODO" . org-warning) ("STARTED" . "yellow")
+        ("CANCELED" . (:foreground "blue" :weight bold))))
+
 (provide 'misc)
 ;;; misc.el ends here
