@@ -4,7 +4,7 @@
 export TERM="xterm-256color"
 
 # Start TMUX automatically
-export ZSH_TMUX_AUTOSTART=true
+# export ZSH_TMUX_AUTOSTART=true
 
 # Path to your oh-my-zsh installation.
 export ZSH=/home/leonardo/.oh-my-zsh

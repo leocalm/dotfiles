@@ -148,6 +148,7 @@
 (setq org-mobile-inbox-for-pull "~/org/tasks.org")
 ;; Set to <your Dropbox root directory>/MobileOrg.
 (setq org-mobile-directory "~/Dropbox/Aplicativos/MobileOrg")
+(setq org-agenda-files '("~/org/feedback.org"))
 
 (setq org-todo-keyword-faces
       '(("TODO" . org-warning) ("STARTED" . "yellow")
