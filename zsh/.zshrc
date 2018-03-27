@@ -111,6 +111,8 @@ if command -v pyenv 1>/dev/null 2>&1; then
 fi
 eval "$(pyenv virtualenv-init -)"
 
+source ~/.fonts/*.sh
+
 POWERLEVEL9K_MODE=awesome-fontconfig
 POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(os_icon dir_writable dir vcs)
 POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(status pyenv nvm ram root_indicator background_jobs history time)

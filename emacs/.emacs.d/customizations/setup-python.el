@@ -5,7 +5,8 @@
 (use-package elpy
   :config
   (elpy-enable)
-  (elpy-use-ipython))
+  (setq python-shell-interpreter "ipython"
+      python-shell-interpreter-args "-i --simple-prompt"))
 
 (use-package pyenv-mode
   :config

@@ -37,7 +37,7 @@
  '(jdee-server-dir "~/jdee_server")
  '(package-selected-packages
    (quote
-    (vue-mode pyenv multiple-cursors markdown-mode magit)))
+    (info+ icicles vue-mode pyenv multiple-cursors markdown-mode magit)))
  '(sql-postgres-login-params
    (quote
     ((user :default "leonardo")

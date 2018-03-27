@@ -66,9 +66,9 @@
   (setq-default helm-M-x-fuzzy-match t))
 
 ;; ICICLES
-(use-package icicles
-  :config
-  (icy-mode 1))
+;; (use-package icicles
+;;   :config
+;;   (icy-mode 1))
 
 ;; DASHBOARD
 (use-package dashboard
@@ -92,7 +92,7 @@
 (use-package projectile
   :defer t
   :config
-  (projectile-discover-projects-in-directory "~/git")
+  (projectile-discover-projects-in-directory "~/workbench")
   (setq projectile-enable-caching t)
   ;; Workaround to avoid projectile making the editor very slow
   ;; https://github.com/bbatsov/projectile/issues/1183#issuecomment-335569547
@@ -122,7 +122,7 @@
   (global-set-key (kbd "C-<") 'mc/mark-previous-like-this)
   (global-set-key (kbd "C-c C-<") 'mc/mark-all-like-this))
 
-(use-package info+)
+;; (use-package info+)
 
 (defun move-line-up ()
   "Move the current line up."
