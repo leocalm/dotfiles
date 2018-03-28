@@ -154,5 +154,8 @@
       '(("TODO" . org-warning) ("STARTED" . "yellow")
         ("CANCELED" . (:foreground "blue" :weight bold))))
 
+;; server
+(server-start)
+
 (provide 'misc)
 ;;; misc.el ends here
