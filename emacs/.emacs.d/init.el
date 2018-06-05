@@ -4,6 +4,8 @@
 ;;; Commentary:
 ;;; Code:
 
+(setq debug-on-error t)
+
 ;; No need for ~ files when editing
 (setq create-lockfiles nil)
 
@@ -13,7 +15,7 @@
 (add-to-list 'package-archives
              '("tromey" . "http://tromey.com/elpa/") t)
 (add-to-list 'package-archives
-             '("melpa" . "http://melpa.milkbox.net/packages/") t)
+             '("melpa" . "http://melpa.org/packages/") t)
 
 (package-initialize)
 
@@ -37,7 +39,7 @@
  '(jdee-server-dir "~/jdee_server")
  '(package-selected-packages
    (quote
-    (info+ icicles vue-mode pyenv multiple-cursors markdown-mode magit)))
+    (org-jira playerctl spotify helm-projectile cider clojure-mode-extra-font-locking clojure-mode paredit pyenv-mode-auto pyenv-mode elpy js2-mode web-mode rainbow-mode company flycheck smartparens rainbow-delimiters markdown-preview-mode dashboard helm-fuzzier helm-ag helm smex ido-vertical-mode ido-completing-read+ better-defaults mode-icons spaceline flymd info+ icicles vue-mode pyenv multiple-cursors markdown-mode magit)))
  '(sql-postgres-login-params
    (quote
     ((user :default "leonardo")

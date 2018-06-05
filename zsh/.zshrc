@@ -1,3 +1,13 @@
+# PATHS
+export ZSH=$HOME/.oh-my-zsh
+export MVN_ROOT="/opt/maven/bin"
+export DATOMIC_INSTALL_DIR=/opt/datomic-free-0.9.5661
+export PATH="$MVN_ROOT:$PATH"
+export TERM="xterm-256color"
+export XDG_CONFIG_HOME="$HOME/.config"
+export ZSH_TMUX_AUTOSTART=true
+
+# LOAD ANTIGEN
 source /home/leonardo/antigen.zsh
 
 # Load the oh-my-zsh's library.
@@ -10,6 +20,8 @@ antigen bundle pip
 antigen bundle lein
 antigen bundle zsh-users/zsh-completions
 antigen bundle zsh-users/zsh-autosuggestions
+antigen bundle zsh-users/zsh-syntax-highlighting
+antigen bundle zsh-users/zsh-history-substring-search
 antigen bundle command-not-found
 antigen bundle colored-man-pages
 
@@ -37,30 +49,20 @@ POWERLEVEL9K_DIR_DEFAULT_FOREGROUND="white"
 POWERLEVEL9K_CONTEXT_TEMPLATE="%n"
 
 POWERLEVEL9K_INSTALLATION_PATH=$ANTIGEN_BUNDLES/bhilburn/powerlevel9k
-antigen theme bhilburn/powerlevel9k powerlevel9k
+antigen theme robbyrussell
+#antigen theme bhilburn/powerlevel9k powerlevel9k
 
-
-# Pyenv
-export PYENV_ROOT="$HOME/.pyenv"
-export PATH="$PYENV_ROOT/bin:$MVN_ROOT:$PATH"
-if command -v pyenv 1>/dev/null 2>&1; then
-  eval "$(pyenv init -)"
-fi
-eval "$(pyenv virtualenv-init -)"
+# Tell Antigen that you're done.
+antigen apply
 
 # NVM
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
-# [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
-# MVN
-export MVN_ROOT="/opt/maven/bin"
+# Pyenv
+export PYENV_ROOT="$HOME/.pyenv"
+export PATH="$PYENV_ROOT/bin:$PATH"
+if which pyenv > /dev/null; then eval "$(pyenv init -)"; fi
+# pyenv-virtualenv
+if which pyenv-virtualenv-init > /dev/null; then eval "$(pyenv virtualenv-init -)"; fi
 
-# DATOMIC
-export DATOMIC_INSTALL_DIR=/opt/datomic-free-0.9.5661
-
-# Custom Alias
-alias datomic_prod="/opt/datomic-pro-0.9.5661/bin/console -p 9998 sql 'datomic:sql://?jdbc:mysql://pod001-production-seubarriga.ciuoqxapzjot.us-east-1.rds.amazonaws.com:3306/datomic?user=QuintoAndar&password=a7sjFYiRoeKLFXHYKwkJDanajC7dVTZv'"
-
-# Tell Antigen that you're done.
-antigen apply
