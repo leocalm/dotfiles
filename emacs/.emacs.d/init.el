@@ -39,7 +39,7 @@
  '(jdee-server-dir "~/jdee_server")
  '(package-selected-packages
    (quote
-    (org-jira playerctl spotify helm-projectile cider clojure-mode-extra-font-locking clojure-mode paredit pyenv-mode-auto pyenv-mode elpy js2-mode web-mode rainbow-mode company flycheck smartparens rainbow-delimiters markdown-preview-mode dashboard helm-fuzzier helm-ag helm smex ido-vertical-mode ido-completing-read+ better-defaults mode-icons spaceline flymd info+ icicles vue-mode pyenv multiple-cursors markdown-mode magit)))
+    (py-isort auto-virtualenv pythonic anaconda-mode highlight-indent-guides elpy company-anaconda org-jira playerctl spotify helm-projectile cider clojure-mode-extra-font-locking clojure-mode paredit pyenv-mode-auto pyenv-mode js2-mode web-mode rainbow-mode company flycheck smartparens rainbow-delimiters markdown-preview-mode dashboard helm-fuzzier helm-ag helm smex ido-vertical-mode ido-completing-read+ better-defaults mode-icons spaceline flymd info+ icicles vue-mode pyenv multiple-cursors markdown-mode magit)))
  '(sql-postgres-login-params
    (quote
     ((user :default "leonardo")
@@ -67,7 +67,7 @@
 ;; Coding
 (load "dev.el")
 (load "web.el")
-(load "setup-python.el")
+(load "setup-python2.el")
 (load "setup-clojure.el")
 ;; (load "setup-jdee.el")
 
