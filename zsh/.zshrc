@@ -28,32 +28,25 @@ antigen bundle colored-man-pages
 # Syntax highlighting bundle.
 antigen bundle zsh-users/zsh-syntax-highlighting
 
-# Powerlevel9k
-POWERLEVEL9K_MODE=awesome-fontconfig
-POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(os_icon dir_writable dir vcs)
-POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(status pyenv nvm ram root_indicator background_jobs history time)
-POWERLEVEL9K_SHORTEN_DIR_LENGTH=1
-POWERLEVEL9K_TIME_FORMAT="%D{%H:%M %m.%d.%y}"
-POWERLEVEL9K_TIME_FORMAT="%D{%H:%M:%S}"
-POWERLEVEL9K_STATUS_VERBOSE=false
+antigen bundle chrissicool/zsh-256color
 
-#POWERLEVEL9K_SHORTEN_STRATEGY="truncate_from_right"
-POWERLEVEL9K_NODE_VERSION_BACKGROUND='022'
-
-#POWERLEVEL9K_SHORTEN_DIR_LENGTH=4
-POWERLEVEL9K_OS_ICON_BACKGROUND="white"
-POWERLEVEL9K_OS_ICON_FOREGROUND="blue"
-POWERLEVEL9K_DIR_HOME_FOREGROUND="white"
-POWERLEVEL9K_DIR_HOME_SUBFOLDER_FOREGROUND="white"
-POWERLEVEL9K_DIR_DEFAULT_FOREGROUND="white"
-POWERLEVEL9K_CONTEXT_TEMPLATE="%n"
-
-POWERLEVEL9K_INSTALLATION_PATH=$ANTIGEN_BUNDLES/bhilburn/powerlevel9k
+AUTOSUGGESTION_HIGHLIGHT_COLOR="fg=cyan"
+# antigen theme bhilburn/powerlevel9k powerlevel9k
 antigen theme robbyrussell
-#antigen theme bhilburn/powerlevel9k powerlevel9k
-
 # Tell Antigen that you're done.
 antigen apply
+
+
+export MVN_ROOT=/opt/maven/bin
+export VSCODE_PATH=/opt/vscode/bin
+
+# Pyenv
+export PYENV_ROOT="$HOME/.pyenv"
+export PATH="$PYENV_ROOT/bin:$MVN_ROOT:$VSCODE_PATH:$PATH"
+if command -v pyenv 1>/dev/null 2>&1; then
+  eval "$(pyenv init -)"
+fi
+eval "$(pyenv virtualenv-init -)"
 
 # NVM
 export NVM_DIR="$HOME/.nvm"
