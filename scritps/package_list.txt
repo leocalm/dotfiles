@@ -140,7 +140,9 @@ lib32-mesa-vdpau
 lib32-vulkan-intel
 lib32-vulkan-radeon
 libdbi-drivers
+libde265-git
 libdvdcss
+libheif-git
 libmysqlclient56
 libreoffice-fresh
 libva-mesa-driver
@@ -168,7 +170,7 @@ manjaro-browser-settings
 manjaro-documentation-en
 manjaro-firmware
 manjaro-gdm-check
-manjaro-gnome-maia-theme
+manjaro-gdm-theme
 manjaro-gnome-settings-17.0
 manjaro-hello
 manjaro-hotfixes
@@ -244,6 +246,7 @@ pulseaudio-zeroconf
 pv
 python-levenshtein
 python-matplotlib
+python-pip
 python-pygments
 rabbitmq
 reiserfsprogs
