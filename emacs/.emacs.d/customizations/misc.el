@@ -95,8 +95,11 @@
 (use-package projectile
   :defer t
   :config
-  (projectile-discover-projects-in-directory "~/workbench")
+  (projectile-discover-projects-in-directory "/opt/dwh")
   (setq projectile-enable-caching t)
+  ;; (projectile-mode +1)
+  (define-key projectile-mode-map (kbd "s-p") 'projectile-command-map)
+  (define-key projectile-mode-map (kbd "C-c p") 'projectile-command-map)
   ;; Workaround to avoid projectile making the editor very slow
   ;; https://github.com/bbatsov/projectile/issues/1183#issuecomment-335569547
   (setq projectile-mode-line
@@ -145,6 +148,15 @@
 ;; Keybindings for moving lines up and down
 (global-set-key (kbd "M-<up>") 'move-line-up)
 (global-set-key (kbd "M-<down>") 'move-line-down)
+
+
+;; Fill column indicator
+(use-package fill-column-indicator
+  :defer t
+  :config
+  (setq fci-rule-column 120)
+  (setq fci-rule-width 1)
+  (setq fci-rule-color "darkblue"))
 
 
 ;; Set to the location of your Org files on your local system

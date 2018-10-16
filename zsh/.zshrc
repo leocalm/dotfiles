@@ -1,11 +1,13 @@
 # PATHS
 export ZSH=$HOME/.oh-my-zsh
-export MVN_ROOT="/opt/maven/bin"
-export DATOMIC_INSTALL_DIR=/opt/datomic-free-0.9.5661
-export PATH="$MVN_ROOT:$PATH"
+# export MVN_ROOT="/opt/maven/bin"
+# export DATOMIC_INSTALL_DIR=/opt/datomic-free-0.9.5661
+# export PATH="$MVN_ROOT:$PATH"
 export TERM="xterm-256color"
 export XDG_CONFIG_HOME="$HOME/.config"
 export ZSH_TMUX_AUTOSTART=true
+export VISUAL=vim
+export EDITOR="$VISUAL"
 
 # LOAD ANTIGEN
 source /home/leonardo/antigen.zsh
@@ -37,16 +39,8 @@ antigen theme robbyrussell
 antigen apply
 
 
-export MVN_ROOT=/opt/maven/bin
-export VSCODE_PATH=/opt/vscode/bin
-
-# Pyenv
-export PYENV_ROOT="$HOME/.pyenv"
-export PATH="$PYENV_ROOT/bin:$MVN_ROOT:$VSCODE_PATH:$PATH"
-if command -v pyenv 1>/dev/null 2>&1; then
-  eval "$(pyenv init -)"
-fi
-eval "$(pyenv virtualenv-init -)"
+# export MVN_ROOT=/opt/maven/bin
+# export VSCODE_PATH=/opt/vscode/bin
 
 # NVM
 export NVM_DIR="$HOME/.nvm"
@@ -59,3 +53,7 @@ if which pyenv > /dev/null; then eval "$(pyenv init -)"; fi
 # pyenv-virtualenv
 if which pyenv-virtualenv-init > /dev/null; then eval "$(pyenv virtualenv-init -)"; fi
 
+
+case $- in *i*)
+  if [ -z "$TMUX" ]; then exec tmux; fi;;
+esac

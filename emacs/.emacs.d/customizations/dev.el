@@ -38,6 +38,14 @@
   :config
   (add-hook 'web-mode-hook 'rainbow-mode))
 
+;; YAML mode
+(use-package yaml-mode
+  :defer t
+  :config
+  (add-hook 'yaml-mode-hook
+        (lambda ()
+            (define-key yaml-mode-map "\C-m" 'newline-and-indent))))
+
 ;; SQL-MODE
 (defvar sql-mysql-options '("-A"))
 (add-hook 'sql-interactive-mode-hook

@@ -2,9 +2,13 @@
 
 ;;; Commentary:
 ;;; Code:
-(use-package anaconda-mode
-  :config
-  (add-hook 'python-mode-hook 'anaconda-mode))
+;; (use-package anaconda-mode
+;;   :config
+;;   (add-hook 'python-mode-hook 'anaconda-mode)
+;;   (setq flycheck-pylintrc "/opt/dwh/airflow/config/tox.ini")
+;;   (setq flycheck-python-mypy-ini "/opt/dwh/airflow/config/tox.ini")
+;;   (flycheck-add-next-checker 'python-pylint 'python-mypy)
+;;   (add-to-list 'python-shell-extra-pythonpaths "/opt/dwh/airflow"))
 
 (use-package auto-virtualenv
   :config
@@ -20,7 +24,13 @@
 
 (use-package elpy
   :init
-  (elpy-enable))
+  (elpy-enable)
+  (setq flycheck-pylintrc "/opt/dwh/airflow/config/tox.ini")
+  (setq flycheck-python-mypy-ini "/opt/dwh/airflow/config/tox.ini")
+  (flycheck-add-next-checker 'python-pylint 'python-mypy)
+  (add-to-list 'python-shell-extra-pythonpaths "/opt/dwh/airflow")
+  (setq python-shell-interpreter "/home/leonardo/.pyenv/shims/python"
+        python-shell-interpreter-args "-m IPython -i --simple-prompt"))
 
 (use-package pyenv-mode
   :config
@@ -28,12 +38,16 @@
 
 (use-package pyenv-mode-auto)
 
-(use-package py-isort
-  :config
-  (add-hook 'before-save-hook 'py-isort-before-save))
+(use-package py-isort)
+  ;; :config
+  ;; (add-hook 'before-save-hook 'py-isort-before-save))
 
-(setq python-shell-interpreter "ipython3"
-      python-shell-interpreter-args "--simple-prompt --pprint")
+(setenv "PYTHONPATH"
+  (concat
+   "/opt/dwh/airflow" ":"
+   (getenv "PYTHONPATH")
+  )
+)
 
 (provide 'setup-python2)
 ;;; setup-python2.el ends here

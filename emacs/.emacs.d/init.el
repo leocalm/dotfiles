@@ -36,10 +36,34 @@
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
+ '(helm-completing-read-handlers-alist
+   (quote
+    ((describe-function . helm-completing-read-symbols)
+     (describe-variable . helm-completing-read-symbols)
+     (describe-symbol . helm-completing-read-symbols)
+     (debug-on-entry . helm-completing-read-symbols)
+     (find-function . helm-completing-read-symbols)
+     (disassemble . helm-completing-read-symbols)
+     (trace-function . helm-completing-read-symbols)
+     (trace-function-foreground . helm-completing-read-symbols)
+     (trace-function-background . helm-completing-read-symbols)
+     (find-tag . helm-completing-read-default-find-tag)
+     (org-capture . helm-org-completing-read-tags)
+     (org-set-tags . helm-org-completing-read-tags)
+     (ffap-alternate-file)
+     (tmm-menubar)
+     (find-file)
+     (find-file-at-point . helm-completing-read-sync-default-handler)
+     (ffap . helm-completing-read-sync-default-handler)
+     (execute-extended-command)
+     (dired-do-copy . helm-read-file-name-handler-1)
+     (dired-do-symlink . helm-read-file-name-handler-1)
+     (dired-do-relsymlink . helm-read-file-name-handler-1)
+     (dired-do-hardlink . helm-read-file-name-handler-1))))
  '(jdee-server-dir "~/jdee_server")
  '(package-selected-packages
    (quote
-    (py-isort auto-virtualenv pythonic anaconda-mode highlight-indent-guides elpy company-anaconda org-jira playerctl spotify helm-projectile cider clojure-mode-extra-font-locking clojure-mode paredit pyenv-mode-auto pyenv-mode js2-mode web-mode rainbow-mode company flycheck smartparens rainbow-delimiters markdown-preview-mode dashboard helm-fuzzier helm-ag helm smex ido-vertical-mode ido-completing-read+ better-defaults mode-icons spaceline flymd info+ icicles vue-mode pyenv multiple-cursors markdown-mode magit)))
+    (yaml-mode fill-column-indicator py-isort auto-virtualenv pythonic anaconda-mode highlight-indent-guides elpy company-anaconda org-jira playerctl spotify helm-projectile cider clojure-mode-extra-font-locking clojure-mode paredit pyenv-mode-auto pyenv-mode js2-mode web-mode rainbow-mode company flycheck smartparens rainbow-delimiters markdown-preview-mode dashboard helm-fuzzier helm-ag helm smex ido-vertical-mode ido-completing-read+ better-defaults mode-icons spaceline flymd info+ icicles vue-mode pyenv multiple-cursors markdown-mode magit)))
  '(sql-postgres-login-params
    (quote
     ((user :default "leonardo")
