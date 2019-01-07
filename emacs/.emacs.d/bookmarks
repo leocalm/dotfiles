@@ -1,0 +1,10 @@
+;;;; Emacs Bookmark Format Version 1 ;;;; -*- coding: utf-8-emacs -*- 
+;;; This format is meant to be slightly human-readable;
+;;; nevertheless, you probably don't want to edit it.
+;;; -*- End Of Bookmark File Format Version Stamp -*-
+(("setup-python2.el"
+ (filename . "~/workbench/dotfiles/emacs/.emacs.d/customizations/setup-python2.el")
+ (front-context-string . ";;; package --- ")
+ (rear-context-string)
+ (position . 1))
+)

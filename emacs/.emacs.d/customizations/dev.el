@@ -52,11 +52,11 @@
           (lambda ()
             (toggle-truncate-lines t)))
 
-(defvar sql-connection-alist
-      '((ebdb-local (sql-product 'mysql)
-                    (sql-server "localhost")
-                    (sql-user "quintoandar")
-                    (sql-database "ebdb"))))
+;; (defvar sql-connection-alist
+;;       '((ebdb-local (sql-product 'mysql)
+;;                     (sql-server "localhost")
+;;                     (sql-user "quintoandar")
+;;                     (sql-database "ebdb"))))
 
 (defun my-sql-connect (connection)
   "Connect to the input server using sql_CONNECTION connection-alist."

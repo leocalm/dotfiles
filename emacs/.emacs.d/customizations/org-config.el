@@ -12,5 +12,9 @@
 ;; Recording close time
 (setq org-log-done 'time)
 
+(use-package org-jira
+  :config
+  (setq jiralib-url "https://emesadev.atlassian.net"))
+
 (provide 'org-config)
 ;;; org-config.el ends here

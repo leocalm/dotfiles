@@ -27,7 +27,8 @@
   (elpy-enable)
   (setq flycheck-pylintrc "/opt/dwh/airflow/config/tox.ini")
   (setq flycheck-python-mypy-ini "/opt/dwh/airflow/config/tox.ini")
-  (flycheck-add-next-checker 'python-pylint 'python-mypy)
+  (setq-default flycheck-disabled-checkers '(python-pylint))
+  ;; (flycheck-add-next-checker 'python-pylint 'python-mypy)
   (add-to-list 'python-shell-extra-pythonpaths "/opt/dwh/airflow")
   (setq python-shell-interpreter "/home/leonardo/.pyenv/shims/python"
         python-shell-interpreter-args "-m IPython -i --simple-prompt"))

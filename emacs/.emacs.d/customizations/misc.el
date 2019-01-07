@@ -58,7 +58,7 @@
 
 (use-package helm-ag
   :config
-  (global-set-key (kbd "C-x C-a") #'helm-ag))
+  (global-set-key (kbd "C-c C-a") #'helm-ag))
 
 (use-package helm-projectile
   :config
@@ -79,8 +79,11 @@
 (use-package dashboard
   :config
   (dashboard-setup-startup-hook)
+  (setq show-week-agenda-p t)
+  (setq dashboard-startup-banner 'logo)
   (setq dashboard-items '((recents  . 5)
                           (projects . 5)
+                          (agenda . 10)
                           (bookmarks . 5)
                           (registers . 5))))
 
@@ -95,7 +98,7 @@
 (use-package projectile
   :defer t
   :config
-  (projectile-discover-projects-in-directory "/opt/dwh")
+  (projectile-discover-projects-in-directory "/home/leonardo/workbench")
   (setq projectile-enable-caching t)
   ;; (projectile-mode +1)
   (define-key projectile-mode-map (kbd "s-p") 'projectile-command-map)
@@ -165,7 +168,7 @@
 (setq org-mobile-inbox-for-pull "~/org/tasks.org")
 ;; Set to <your Dropbox root directory>/MobileOrg.
 (setq org-mobile-directory "~/Dropbox/Aplicativos/MobileOrg")
-(setq org-agenda-files '("~/org/feedback.org"))
+(setq org-agenda-files '("~/org/tasks.org"))
 
 (setq org-todo-keyword-faces
       '(("TODO" . org-warning) ("STARTED" . "yellow")
@@ -221,10 +224,10 @@
       (hud :priority 99))))
 
 
-(display-time-mode 1)
 (setq display-time-day-and-date t)
 (setq display-time-format "%Y-%m-%d %H:%M")
-
+(setq display-time-default-load-average nil)
+(display-time-mode 1)
 
 (provide 'misc)
 ;;; misc.el ends here
