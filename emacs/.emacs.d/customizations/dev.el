@@ -46,6 +46,11 @@
         (lambda ()
             (define-key yaml-mode-map "\C-m" 'newline-and-indent))))
 
+;; Ansible minor mode
+(use-package ansible
+  :defer t
+)
+
 ;; SQL-MODE
 (defvar sql-mysql-options '("-A"))
 (add-hook 'sql-interactive-mode-hook

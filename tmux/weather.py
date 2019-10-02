@@ -1,4 +1,5 @@
 import requests
+from datetime import datetime
 
 API_KEY = 'c441d913315c4f114e08ac13334c51a7'
 
@@ -11,8 +12,29 @@ ICONS = {
     501: '🌦',
     520: '🌦',
     521: '🌦',
+    600: '🌨',
+    601: '🌨',
+    602: '🌨',
+    611: '🌨',
+    612: '🌨',
+    615: '🌨',
+    616: '🌨',
+    620: '🌨',
+    621: '🌨',
+    622: '🌨',
+    701: '🌫',
+    711: '🌫',
+    721: '🌫',
+    731: '🌫',
+    741: '🌫',
+    751: '🌫',
+    761: '🌫',
+    762: '🌫',
+    771: '🌫',
+    781: '🌫',
     800: '☀️',
     801: '🌤',
+    802: '🌤',
     803: '⛅️',
     804: '☁️'
 }
@@ -41,12 +63,6 @@ if __name__ == '__main__':
     category, temp, wind_speed = get_weather(lat, lon)
 
     icon = ICONS.get(category, category)
-
-    # print('{city}: {icon} {temp}°C, {wind_speed} m/s'
-    #       .format(city=city,
-    #               icon=icon,
-    #               temp=temp,
-    #               wind_speed=wind_speed))
 
     print('{temp}°C {icon}'
           .format(icon=icon,

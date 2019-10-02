@@ -14,7 +14,7 @@
 
 (global-hl-line-mode)
 
-(set-frame-font "Hack 10" nil t)
+;; (set-frame-font "SourceCodePro 10" nil t)
 
 ;; These settings relate to how emacs interacts with your operating system
 (setq ;; makes killing/yanking interact with the clipboard
@@ -52,9 +52,9 @@
   (spaceline-helm-mode)
   (spaceline-info-mode))
 
-(use-package mode-icons
-  :config
-  (mode-icons-mode))
+;; (use-package mode-icons
+;;   :config
+;;   (mode-icons-mode))
 
 (provide 'ui)
 ;;; ui.el ends here

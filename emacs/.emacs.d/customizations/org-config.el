@@ -12,6 +12,16 @@
 ;; Recording close time
 (setq org-log-done 'time)
 
+(setq org-todo-keywords
+      '((sequence "TODO" "BLOCKED"  "DOING" "REVIEW" "|" "DONE" "CANCELED")))
+
+(setq org-todo-keyword-faces
+      '(("TODO" . org-warning)
+        ("BLOCKED" . "red")
+        ("DOING" . "yellow")
+        ("REVIEW" . "blue")
+        ("CANCELED" . (:foreground "orange" :weight bold))))
+
 (use-package org-jira
   :config
   (setq jiralib-url "https://emesadev.atlassian.net"))
