@@ -61,9 +61,10 @@
      (dired-do-relsymlink . helm-read-file-name-handler-1)
      (dired-do-hardlink . helm-read-file-name-handler-1))))
  '(jdee-server-dir "~/jdee_server")
+ '(org-agenda-files (quote ("~/org/personal.org")))
  '(package-selected-packages
    (quote
-    (groovy-mode fancy-battery yaml-mode fill-column-indicator py-isort auto-virtualenv pythonic anaconda-mode highlight-indent-guides elpy company-anaconda org-jira playerctl spotify helm-projectile cider clojure-mode-extra-font-locking clojure-mode paredit pyenv-mode-auto pyenv-mode js2-mode web-mode rainbow-mode company flycheck smartparens rainbow-delimiters markdown-preview-mode dashboard helm-fuzzier helm-ag helm smex ido-vertical-mode ido-completing-read+ better-defaults mode-icons spaceline flymd info+ icicles vue-mode pyenv multiple-cursors markdown-mode magit)))
+    (pipenv ansible conda company-terraform terraform-mode elpy ensime groovy-mode fancy-battery yaml-mode fill-column-indicator py-isort auto-virtualenv pythonic anaconda-mode highlight-indent-guides company-anaconda org-jira playerctl helm-projectile cider clojure-mode-extra-font-locking clojure-mode paredit pyenv-mode-auto pyenv-mode js2-mode web-mode rainbow-mode company flycheck smartparens rainbow-delimiters markdown-preview-mode dashboard helm-fuzzier helm-ag helm smex ido-vertical-mode ido-completing-read+ better-defaults mode-icons spaceline flymd info+ icicles vue-mode pyenv multiple-cursors markdown-mode magit)))
  '(sql-postgres-login-params
    (quote
     ((user :default "leonardo")
@@ -94,6 +95,7 @@
 (load "setup-python2.el")
 (load "setup-clojure.el")
 (load "setup-scala.el")
+(load "setup-terraform.el")
 
 (provide 'init)
 ;;; init.el ends here

@@ -24,23 +24,23 @@
 (setq inhibit-startup-message t)
 
 ;; Enabling IDO
-(require 'ido)
-(setq ido-enable-flex-matching t)
-(setq ido-everywhere t)
-(setq ido-create-new-buffer 'always)
-(ido-mode 1)
+;; (require 'ido)
+;; (setq ido-enable-flex-matching t)
+;; (setq ido-everywhere t)
+;; (setq ido-create-new-buffer 'always)
+;; (ido-mode 1)
 
-;; IDO ubiquitous
-(use-package ido-completing-read+
-  :config
-  (ido-ubiquitous-mode 1))
+;; ;; IDO ubiquitous
+;; (use-package ido-completing-read+
+;;   :config
+;;   (ido-ubiquitous-mode 1))
 
-;; IDO vertical mode
-(use-package ido-vertical-mode
-  :config
-  (ido-vertical-mode 1)
-  (setq ido-vertical-define-keys 'C-n-and-C-p-only)
-  (setq ido-vertical-show-count t))
+;; ;; IDO vertical mode
+;; (use-package ido-vertical-mode
+;;   :config
+;;   (ido-vertical-mode 1)
+;;   (setq ido-vertical-define-keys 'C-n-and-C-p-only)
+;;   (setq ido-vertical-show-count t))
 
 ;; SMEX
 (use-package smex ; Not needed if you use package.el
@@ -54,6 +54,13 @@
   (global-set-key (kbd "M-x") #'helm-M-x)
   (global-set-key (kbd "C-x r b") #'helm-filtered-bookmarks)
   (global-set-key (kbd "C-x C-f") #'helm-find-files)
+  (define-key helm-map (kbd "<left>") 'helm-previous-source)
+  (define-key helm-map (kbd "<right>") 'helm-next-source)
+  (customize-set-variable 'helm-ff-lynx-style-map t)
+  (customize-set-variable 'helm-imenu-lynx-style-map t)
+  (customize-set-variable 'helm-semantic-lynx-style-map
+                          t)
+  (customize-set-variable 'helm-occur-use-ioccur-style-keys t)
   (helm-mode 1))
 
 (use-package helm-ag
@@ -98,7 +105,7 @@
 (use-package projectile
   :defer t
   :config
-  (projectile-discover-projects-in-directory "/home/leonardo/workbench")
+  (projectile-discover-projects-in-directory "/opt/dwh")
   (setq projectile-enable-caching t)
   ;; (projectile-mode +1)
   (define-key projectile-mode-map (kbd "s-p") 'projectile-command-map)
@@ -170,26 +177,22 @@
 (setq org-mobile-directory "~/Dropbox/Aplicativos/MobileOrg")
 (setq org-agenda-files '("~/org/tasks.org"))
 
-(setq org-todo-keyword-faces
-      '(("TODO" . org-warning) ("STARTED" . "yellow")
-        ("CANCELED" . (:foreground "blue" :weight bold))))
-
 ;; server
 (server-start)
-
-;; Spotify
-(use-package spotify
-  :init
-  (global-set-key (kbd "C-c C-n") 'spotify-next)
-  (global-set-key (kbd "C-c C-p") 'spotify-previous)
-  (global-set-key (kbd "C-c C-SPC") 'spotify-playpause))
 
 (use-package spaceline-config :ensure spaceline
   :config
   (spaceline-helm-mode 1)
-  (spaceline-define-segment spotify
-    "Bla"
-    (spotify-current))
+
+  (spaceline-define-segment python-conda-env
+  "The current python venv.  Works with `conda'."
+  (when (and active
+             (eq 'python-mode major-mode)
+             (bound-and-true-p conda-env-current-name))
+    (propertize conda-env-current-name
+                'face 'spaceline-python-venv
+                'help-echo (format "Virtual environment (via pyvenv)"))))
+
 
   (spaceline-install
     'main
@@ -208,7 +211,7 @@
                        :priority 78)
       (org-pomodoro :when active)
       (org-clock :when active))
-    '((spotify)
+    '((python-conda-env)
       (python-pyvenv :fallback python-pyenv)
       (purpose :priority 94)
       (battery :when active)
@@ -228,6 +231,10 @@
 (setq display-time-format "%Y-%m-%d %H:%M")
 (setq display-time-default-load-average nil)
 (display-time-mode 1)
+
+;; 
+
+(setq exec-path (append exec-path '("/usr/local/bin")))
 
 (provide 'misc)
 ;;; misc.el ends here
